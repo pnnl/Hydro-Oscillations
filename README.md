@@ -9,7 +9,7 @@ Grid Oscillations and Dynamics Assessment Considering Hydropower Operations
 3. Break Insertion for different hydrological conditions (EPCL)
 4. Channel to csv converter (EPCL plot)
 
-## Nordic 44 bus system Examples
+## Nordic 44 Bus System Examples
 Folder Named Nordic_44_PSLF_Files has three subfolders containing examples of modeling different hydrological conditions.
 1) C1_N44_5300 - Break insertion using base case PSLF files
 2) C1_N44_5300 - Break insertion for WH = 0.8, HR = 20%
@@ -17,7 +17,7 @@ Folder Named Nordic_44_PSLF_Files has three subfolders containing examples of mo
 
 <p align="justify"> Logic explained in Automated Script subsection is used to create these examples. The break insertion is carried out at bus 5300 in the Nordic 44 test system. A 500 MW load which was originally out of service was brought in-service and back to out-of-service after 0.5 seconds as part of break insertion test. The subsequent output files can be used for the modal analysis.</p>
 
-## WECC 240 bus system Examples
+## WECC 240 Bus System Examples
 Folder Named WECC_240_PSLF_Files has three subfolders containing examples of modeling different hydrological conditions.
 1) C1_WECC240_1302 - Break insertion using base case PSLF files
 2) C1_WECC240_1302 - Break insertion for WH = 0.8, HR = 20%
