@@ -9,13 +9,13 @@ Grid Oscillations and Dynamics Assessment Considering Hydropower Operations
 3. Brake Insertion for different hydrological conditions (EPCL)
 4. Channel to csv converter (EPCL plot)
 
-The python file "1_WHV_Input_CSV_Generation.py" implements step 1 - Preprocessed Input csv creation. This file extracts the hydro generators data of the test system, derates the generators, and calculates the new power output for hydro generator based on the WH and HR parameter values. 
+<p align="justify"> The python file "1_WHV_Input_CSV_Generation.py" implements step 1 - Preprocessed Input csv creation. This file extracts the hydro generators data of the test system, derates the generators, and calculates the new power output for hydro generator based on the WH and HR parameter values. </p>
 
-EPCL script "2_Modifying_PowerFlow_for_WHV.p" is used to modify the power flow case in step 2. This script sets the new Pgen and Pmax values calculated in step 1, for one hydro generator at a time and runs a governor power flow each time for re-dispatch. The output of this step is a new power flow file (.sav extension) which will be used in the subsequent step.
+<p align="justify"> EPCL script "2_Modifying_PowerFlow_for_WHV.p" is used to modify the power flow case in step 2. This script sets the new Pgen and Pmax values calculated in step 1, for one hydro generator at a time and runs a governor power flow each time for re-dispatch. The output of this step is a new power flow file (.sav extension) which will be used in the subsequent step. </p>
 
-EPCL script "3_WHV_hdam_var_Break_Insertion.p" takes in the modified power flow case as input and sets the appropriate parameters for changing water heads in hydro governor models (hdam parameter in hygov model). Following this a brake insertion test is carried out. The outputs of this test is saved as channel file (.chf).
+<p align="justify"> EPCL script "3_WHV_hdam_var_Break_Insertion.p" takes in the modified power flow case as input and sets the appropriate parameters for changing water heads in hydro governor models (hdam parameter in hygov model). Following this a brake insertion test is carried out. The outputs of this test is saved as channel file (.chf). </p>
 
-Finally,  "4_CHF_to_CSV_WECC_240_PSLF_plot.p" helps in converting the channels file created into a csv file. This file calls "4b_WECC_240_Channels_List.txt", hence it must be placed in the same directory.
+<p align="justify"> Finally,  "4_CHF_to_CSV_WECC_240_PSLF_plot.p" helps in converting the channels file created into a csv file. This file calls "4b_WECC_240_Channels_List.txt", hence it must be placed in the same directory. </p>
 
 ## Nordic 44 Bus System Examples
 Folder Named Nordic_44_PSLF_Files has three subfolders containing examples of modeling different hydrological conditions.
