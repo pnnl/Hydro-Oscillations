@@ -15,6 +15,7 @@ EPCL script "2_Modifying_PowerFlow_for_WHV.p" is used to modify the power flow c
 
 EPCL script "3_WHV_hdam_var_Break_Insertion.p" takes in the modified power flow case as input and sets the appropriate parameters for changing water heads in hydro governor models (hdam parameter in hygov model). Following this a brake insertion test is carried out. The outputs of this test is saved as channel file (.chf).
 
+Finally,  "4_CHF_to_CSV_WECC_240_PSLF_plot.p" helps in converting the channels file created into a csv file. This file calls "4b_WECC_240_Channels_List.txt", hence it must be placed in the same directory.
 
 ## Nordic 44 Bus System Examples
 Folder Named Nordic_44_PSLF_Files has three subfolders containing examples of modeling different hydrological conditions.
