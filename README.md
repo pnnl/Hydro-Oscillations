@@ -2,7 +2,7 @@
 Grid Oscillations and Dynamics Assessment Considering Hydropower Operations
 
 ## Scripts to Automate Modeling of Hydrological Conditions using PSLF
-Set of codes for accurately modeling the water head variation in hydro power plants is provided. Specifically four files are needed.
+This section explains the set of scripts designed to automate modeling the hydrological conditions for hydro power plants for power system simulations. Specifically two hydrological parameters are varied in this study - Water Head (WH) and Head Room (HR). WH denotes the height of water body in the reservoir reported in pu. HR on the other hand is an electrical quanitity and is denoted using the percentage difference between maximum active power a machine can produce (Pmax) and the machine active power output (Pgen).GE PSLF (Positive Sequence Load Flow) software was used to model these hydrological conditions. The hydrological condition modeling is implemented using a set of four scripts as explained below.
 1) Preprocessed Input csv creation  (Python)
 2) Modifying power flow for new hydrological condition (EPCL)
 3) Break Insertion for different hydrological conditions (EPCL)
