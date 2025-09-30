@@ -9,7 +9,7 @@ Grid Oscillations and Dynamics Assessment Considering Hydropower Operations
 3. Brake Insertion for different hydrological conditions (EPCL)
 4. Channel to csv converter (EPCL plot)
 
-The python file "1_WHV_Input_CSV_Generation.py" can be used for step 1 - Preprocessed Input csv creation. This file extracts the hydro generators data of the test system, derates the generators, and calculates the new power output for hydro generator based on the WH and HR parameter values. 
+The python file "1_WHV_Input_CSV_Generation.py" implements step 1 - Preprocessed Input csv creation. This file extracts the hydro generators data of the test system, derates the generators, and calculates the new power output for hydro generator based on the WH and HR parameter values. 
 
 EPCL script "2_Modifying_PowerFlow_for_WHV.p" is used to modify the power flow case in step 2. This script sets the new Pgen and Pmax values calculated in step 1, for one hydro generator at a time and runs a governor power flow each time for re-dispatch. The output of this step is a new power flow file (.sav extension) which will be used in the subsequent step.
 
