@@ -9,6 +9,8 @@ Grid Oscillations and Dynamics Assessment Considering Hydropower Operations
 3. Brake Insertion for different hydrological conditions (EPCL)
 4. Channel to csv converter (EPCL plot)
 
+The python file for Preprocessed Input csv creation 
+
 ## Nordic 44 Bus System Examples
 Folder Named Nordic_44_PSLF_Files has three subfolders containing examples of modeling different hydrological conditions.
 1) C1_N44_5300 - brake insertion using base case PSLF files
