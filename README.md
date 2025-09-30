@@ -13,7 +13,7 @@ The python file "1_WHV_Input_CSV_Generation.py" can be used for step 1 - Preproc
 
 EPCL script "2_Modifying_PowerFlow_for_WHV.p" is used to modify the power flow case in step 2. This script sets the new Pgen and Pmax values calculated in step 1, for one hydro generator at a time and runs a governor power flow each time for re-dispatch. The output of this step is a new power flow file (.sav extension) which will be used in the subsequent step.
 
-
+EPCL script "3_WHV_hdam_var_Break_Insertion.p" takes in the modified power flow case as input and sets the appropriate parameters for changing water heads in hydro governor models (hdam parameter in hygov model). Following this a brake insertion test is carried out. The outputs of this test is saved as channel file (.chf).
 
 
 ## Nordic 44 Bus System Examples
