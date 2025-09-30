@@ -216,7 +216,7 @@ for @i=0 to @num_hydro_gens	-1
 		
 next
 
-@return = savf("WECC240_newOC_C14.sav")
+@return = savf("WECC240_newOC.sav")
 
 @ret=close($Data)	
 
