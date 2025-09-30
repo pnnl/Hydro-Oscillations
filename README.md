@@ -9,7 +9,7 @@ Grid Oscillations and Dynamics Assessment Considering Hydropower Operations
 3. Brake Insertion for different hydrological conditions (EPCL)
 4. Channel to csv converter (EPCL plot)
 
-The python file for Preprocessed Input csv creation 
+The python file "1_WHV_Input_CSV_Generation.py" can be used for step 1 - Preprocessed Input csv creation. This file extracts the hydro generators data of the test system, derates the generators, and calculates the new power output for hydro generator based on the WH and HR parameter values.
 
 ## Nordic 44 Bus System Examples
 Folder Named Nordic_44_PSLF_Files has three subfolders containing examples of modeling different hydrological conditions.
