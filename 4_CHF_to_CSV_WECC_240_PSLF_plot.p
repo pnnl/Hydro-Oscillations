@@ -3,8 +3,8 @@
 @headerflag = 1 
 @selFlag = 1
 
-$name1 = "WECC240_WH_HR_var_C14_L_4101.csv"
-$name7 = "WECC240_WH_HR_var_C14_L_4101.chf"
+$name1 = "WECC240_out.csv"
+$name7 = "WECC240_out.chf"
 	
 @ret = getp($name7)
 @ret = chan2csv(@headerflag,@selFlag,"WECC_240_all_channels_txt_Vm_Va_Pg_f.txt",$name1)
