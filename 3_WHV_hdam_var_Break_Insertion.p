@@ -2,6 +2,7 @@
 @ret = change_dir("D:\AV\MiniWECC240_PSLFv22_SD\Case14_WECC240_WH_0p8_HR_0p1_BI_4101")
 
 
+/* 25 is the number of hydro generators in this example*/
 dim #Bus_number[25]
 dim *Hydro_flag[25][32]
 dim *Bus_names[25][32]
@@ -58,7 +59,7 @@ next
 for @i = 0 to @num_hydro_gens-1
 	if (#FLN[@i] = 1)
 		@count = @count+1
-		@ret4 = setmodpar(1,#Bus_number[@i],-1,*Unit_ID[@i],0,"hygov","hdam",#WH[@i])	
+		@ret4 = setmodpar(1,#Bus_number[@i],-1,*Unit_ID[@i],0,"hygov","hdam",#WH[@i]) /* Setting hdam parameter for hygov*/	
 		
 		logterm(#Bus_number[@i]," is the bus number <")
 		logterm(*Unit_ID[@i]," is the unit ID <")
@@ -118,6 +119,7 @@ dypar[0].tpause = 75
 
 
 logterm("The end","<")
+
 
 
 
