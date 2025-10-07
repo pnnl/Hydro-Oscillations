@@ -3,6 +3,7 @@
 
 
 /* Initializing varaibles with dimension*/
+/* 25 is the total number of hydro gneerators in this example*/
 dim #Bus_number[25]
 dim *Hydro_flag[25][32]
 dim *Bus_names[25][32]
@@ -170,7 +171,7 @@ for @i=0 to @num_hydro_gens	-1
 						@dispnegunits = 0
 						@maxiter = 25
 						@prflag = 1
-						@ret = redisp(@deltp, @rdopt, @govpf, @rdbl, @arswing,@dispnegunits, @maxiter, @prflag)
+						@ret = redisp(@deltp, @rdopt, @govpf, @rdbl, @arswing,@dispnegunits, @maxiter, @prflag) /*running governor power flow*/
 					
 						solpar[0].tapadj = 0 
 						solpar[0].swsadj = 0 
@@ -216,8 +217,9 @@ for @i=0 to @num_hydro_gens	-1
 		
 next
 
-@return = savf("WECC240_newOC.sav")
+@return = savf("WECC240_newOC.sav") /*saving the updated sav file*/
 
 @ret=close($Data)	
 
 logterm("End Flag!","<")
+
