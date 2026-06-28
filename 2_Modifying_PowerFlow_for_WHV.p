@@ -3,7 +3,7 @@
 
 
 /* Initializing varaibles with dimension*/
-/* 25 is the total number of hydro gneerators in this example*/
+/* 25 is the total number of hydro gneerators in this example - */
 dim #Bus_number[25]
 dim *Hydro_flag[25][32]
 dim *Bus_names[25][32]
