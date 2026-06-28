@@ -1,0 +1,786 @@
+#   dynamics data written  Mon Jul 14 21:36:18 2025
+#   from saved case filename [N44_dyr_NYPA.dyr] 
+#
+#   title
+# PSS/E VERSION 33 RAW DATA EXPORT FROM PSS/O                                    
+# 2015-08-12 NORDIC44_BZ (NORDIC44)                                              
+#                                                                                
+#                                                                                
+#                                                                                
+#   comments
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#
+lodrep
+wlwscc             3000 "FORSMARK    " 420.00 "1 "  : #9 "flag" 0.0 "p1" 0.0 "q1" 1.000000 "p2" 1.000000 "q2" 0.0 "p3" 0.0 "q3" 0.0 "p4" 0.0 "q4" 0.0 "lpd" 0.0 /
+ "lqd" 0.0
+#
+#   area 11 [NO1                             ]
+#
+models
+gensal             5100 "TRETTEN     " 300.00  "1 "  : #9 mva=1200.0000 "tpdo" 4.9629 "tppdo" 0.0500 "tppqo" 0.1500 "h" 3.9871 "d" 0.0000 "ld" 1.1332 /
+ "lq" 0.6831 "lpd" 0.2430 "lppd" 0.1514 "ll" 0.1340 "s1" 0.1000 "s12" 0.3000 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             5100 "TRETTEN     " 300.00  "2 "  : #9 mva=1200.0000 "tpdo" 4.9629 "tppdo" 0.0500 "tppqo" 0.1500 "h" 3.9871 "d" 0.0000 "ld" 1.1332 /
+ "lq" 0.6832 "lpd" 0.2430 "lppd" 0.1514 "ll" 0.1341 "s1" 0.1000 "s12" 0.3000 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             5400 "OSLO1       " 300.00  "1 "  : #9 mva=1225.0000 "tpdo" 6.5000 "tppdo" 0.0500 "tppqo" 0.1500 "h" 4.1000 "d" 0.0000 "ld" 1.0200 /
+ "lq" 0.6300 "lpd" 0.2500 "lppd" 0.1600 "ll" 0.1300 "s1" 0.1000 "s12" 0.3000 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             5400 "OSLO1       " 300.00  "2 "  : #9 mva=1225.0000 "tpdo" 6.5000 "tppdo" 0.0500 "tppqo" 0.1500 "h" 4.1000 "d" 0.0000 "ld" 1.0200 /
+ "lq" 0.6300 "lpd" 0.2500 "lppd" 0.1600 "ll" 0.1300 "s1" 0.1000 "s12" 0.3000 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             5500 "OSLO2       " 300.00  "1 "  : #9 mva=1450.0000 "tpdo" 7.1980 "tppdo" 0.0500 "tppqo" 0.1500 "h" 3.0000 "d" 0.0000 "ld" 1.2364 /
+ "lq" 0.6557 "lpd" 0.3742 "lppd" 0.2282 "ll" 0.1619 "s1" 0.1000 "s12" 0.3000 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             5500 "OSLO2       " 300.00  "2 "  : #9 mva=1450.0000 "tpdo" 7.1980 "tppdo" 0.0500 "tppqo" 0.1500 "h" 3.0000 "d" 0.0000 "ld" 1.2364 /
+ "lq" 0.6557 "lpd" 0.3741 "lppd" 0.2282 "ll" 0.1619 "s1" 0.1000 "s12" 0.3000 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+sexs               5100 "TRETTEN     " 300.00  "1 "  : #9 "tatb" 0.050000 "tb" 100.0000 "k"   200.00 "te" 0.500000 "emin" 0.0 "emax"   4.0000 "kc  " 1.000000 "tc  " 0.0 "efdmin"  -999.00 "efdmax"   999.00 /
+ "tr" 0.0
+sexs               5100 "TRETTEN     " 300.00  "2 "  : #9 "tatb" 0.050000 "tb" 100.0000 "k"   200.00 "te" 0.500000 "emin" 0.0 "emax"   4.0000 "kc  " 1.000000 "tc  " 0.0 "efdmin"  -999.00 "efdmax"   999.00 /
+ "tr" 0.0
+sexs               5400 "OSLO1       " 300.00  "1 "  : #9 "tatb" 0.050000 "tb" 100.0000 "k"   200.00 "te" 0.500000 "emin" 0.0 "emax"   4.0000 "kc  " 1.000000 "tc  " 0.0 "efdmin"  -999.00 "efdmax"   999.00 /
+ "tr" 0.0
+sexs               5400 "OSLO1       " 300.00  "2 "  : #9 "tatb" 0.050000 "tb" 100.0000 "k"   200.00 "te" 0.500000 "emin" 0.0 "emax"   4.0000 "kc  " 1.000000 "tc  " 0.0 "efdmin"  -999.00 "efdmax"   999.00 /
+ "tr" 0.0
+sexs               5500 "OSLO2       " 300.00  "1 "  : #9 "tatb" 0.050000 "tb" 100.0000 "k"   200.00 "te" 0.500000 "emin" 0.0 "emax"   4.0000 "kc  " 1.000000 "tc  " 0.0 "efdmin"  -999.00 "efdmax"   999.00 /
+ "tr" 0.0
+sexs               5500 "OSLO2       " 300.00  "2 "  : #9 "tatb" 0.050000 "tb" 100.0000 "k"   200.00 "te" 0.500000 "emin" 0.0 "emax"   4.0000 "kc  " 1.000000 "tc  " 0.0 "efdmin"  -999.00 "efdmax"   999.00 /
+ "tr" 0.0
+hygov              5100 "TRETTEN     " 300.00  "1 "  : #9 mwcap=1200.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.200000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              5100 "TRETTEN     " 300.00  "2 "  : #9 mwcap=1200.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.200000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              5400 "OSLO1       " 300.00  "1 "  : #9 mwcap=1225.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.200000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              5400 "OSLO1       " 300.00  "2 "  : #9 mwcap=1225.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.200000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              5500 "OSLO2       " 300.00  "1 "  : #9 mwcap=1450.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.200000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              5500 "OSLO2       " 300.00  "2 "  : #9 mwcap=1450.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.200000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+
+#
+#   area 12 [NO2                             ]
+#
+models
+gensal             5600 "KRISTIANSAND" 300.00  "1 "  : #9 mva=1650.0000 "tpdo" 7.8500 "tppdo" 0.0500 "tppqo" 0.1500 "h" 3.5000 "d" 0.0000 "ld" 1.0000 /
+ "lq" 0.5132 "lpd" 0.3800 "lppd" 0.2800 "ll" 0.2100 "s1" 0.1000 "s12" 0.3000 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             5600 "KRISTIANSAND" 300.00  "2 "  : #9 mva=1650.0000 "tpdo" 7.8500 "tppdo" 0.0500 "tppqo" 0.1500 "h" 3.5000 "d" 0.0000 "ld" 1.0000 /
+ "lq" 0.5132 "lpd" 0.3800 "lppd" 0.2800 "ll" 0.2100 "s1" 0.1000 "s12" 0.3000 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             5600 "KRISTIANSAND" 300.00  "3 "  : #9 mva=1650.0000 "tpdo" 7.8500 "tppdo" 0.0500 "tppqo" 0.1500 "h" 3.5000 "d" 0.0000 "ld" 1.0000 /
+ "lq" 0.5132 "lpd" 0.3800 "lppd" 0.2800 "ll" 0.2100 "s1" 0.1000 "s12" 0.3000 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             5600 "KRISTIANSAND" 300.00  "4 "  : #9 mva=1650.0000 "tpdo" 7.8500 "tppdo" 0.0500 "tppqo" 0.1500 "h" 3.5000 "d" 0.0000 "ld" 1.0000 /
+ "lq" 0.5132 "lpd" 0.3800 "lppd" 0.2800 "ll" 0.2100 "s1" 0.1000 "s12" 0.3000 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             6000 "KVILLDAL    " 300.00  "1 "  : #9 mva=680.0000  "tpdo" 9.7000 "tppdo" 0.0500 "tppqo" 0.1500 "h" 3.5000 "d" 0.0000 "ld" 1.2800 /
+ "lq" 0.9400 "lpd" 0.3700 "lppd" 0.2800 "ll" 0.2000 "s1" 0.1000 "s12" 0.3000 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             6000 "KVILLDAL    " 300.00  "2 "  : #9 mva=680.0000  "tpdo" 9.7000 "tppdo" 0.0500 "tppqo" 0.1500 "h" 3.5000 "d" 0.0000 "ld" 1.2800 /
+ "lq" 0.9400 "lpd" 0.3700 "lppd" 0.2800 "ll" 0.2000 "s1" 0.1000 "s12" 0.3000 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             6000 "KVILLDAL    " 300.00  "3 "  : #9 mva=680.0000  "tpdo" 9.7000 "tppdo" 0.0500 "tppqo" 0.1500 "h" 3.5000 "d" 0.0000 "ld" 1.2800 /
+ "lq" 0.9400 "lpd" 0.3700 "lppd" 0.2800 "ll" 0.2000 "s1" 0.1000 "s12" 0.3000 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             6000 "KVILLDAL    " 300.00  "4 "  : #9 mva=680.0000  "tpdo" 9.7000 "tppdo" 0.0500 "tppqo" 0.1500 "h" 3.5000 "d" 0.0000 "ld" 1.2800 /
+ "lq" 0.9400 "lpd" 0.3700 "lppd" 0.2800 "ll" 0.2000 "s1" 0.1000 "s12" 0.3000 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             6100 "BLAFALLI    " 300.00  "1 "  : #9 mva=1240.0000 "tpdo" 9.9000 "tppdo" 0.0500 "tppqo" 0.1500 "h" 3.0000 "d" 0.0000 "ld" 1.2000 /
+ "lq" 0.7300 "lpd" 0.3700 "lppd" 0.1800 "ll" 0.1500 "s1" 0.1000 "s12" 0.3000 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             6100 "BLAFALLI    " 300.00  "2 "  : #9 mva=1240.0000 "tpdo" 9.9000 "tppdo" 0.0500 "tppqo" 0.1500 "h" 3.0000 "d" 0.0000 "ld" 1.2000 /
+ "lq" 0.7300 "lpd" 0.3700 "lppd" 0.1800 "ll" 0.1500 "s1" 0.1000 "s12" 0.3000 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             6100 "BLAFALLI    " 300.00  "3 "  : #9 mva=1240.0000 "tpdo" 9.9000 "tppdo" 0.0500 "tppqo" 0.1500 "h" 3.0000 "d" 0.0000 "ld" 1.2000 /
+ "lq" 0.7300 "lpd" 0.3700 "lppd" 0.1800 "ll" 0.1500 "s1" 0.1000 "s12" 0.3000 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             6100 "BLAFALLI    " 300.00  "4 "  : #9 mva=1240.0000 "tpdo" 9.9000 "tppdo" 0.0500 "tppqo" 0.1500 "h" 3.0000 "d" 0.0000 "ld" 1.2000 /
+ "lq" 0.7300 "lpd" 0.3700 "lppd" 0.1800 "ll" 0.1500 "s1" 0.1000 "s12" 0.3000 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             6100 "BLAFALLI    " 300.00  "5 "  : #9 mva=1240.0000 "tpdo" 9.9000 "tppdo" 0.0500 "tppqo" 0.1500 "h" 3.0000 "d" 0.0000 "ld" 1.2000 /
+ "lq" 0.7300 "lpd" 0.3700 "lppd" 0.1800 "ll" 0.1500 "s1" 0.1000 "s12" 0.3000 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+scrx               5600 "KRISTIANSAND" 300.00  "1 "  : #9 "tatb" 0.253850 "tb"  13.0000 "k"  61.0000 "te" 0.050000 "emin" 0.0 "emax"   4.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               5600 "KRISTIANSAND" 300.00  "2 "  : #9 "tatb" 0.253850 "tb"  13.0000 "k"  61.0000 "te" 0.050000 "emin" 0.0 "emax"   4.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               5600 "KRISTIANSAND" 300.00  "3 "  : #9 "tatb" 0.253850 "tb"  13.0000 "k"  61.0000 "te" 0.050000 "emin" 0.0 "emax"   4.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               5600 "KRISTIANSAND" 300.00  "4 "  : #9 "tatb" 0.253850 "tb"  13.0000 "k"  61.0000 "te" 0.050000 "emin" 0.0 "emax"   4.0000 "cswitch" 0.0 "rcrfd" 0.0
+sexs               6000 "KVILLDAL    " 300.00  "1 "  : #9 "tatb" 1.000000 "tb" 0.100000 "k"  20.0000 "te" 0.100000 "emin"  -4.0000 "emax"   4.0000 "kc  " 1.000000 "tc  " 0.0 "efdmin"  -999.00 "efdmax"   999.00 /
+ "tr" 0.0
+sexs               6000 "KVILLDAL    " 300.00  "2 "  : #9 "tatb" 1.000000 "tb" 0.100000 "k"  20.0000 "te" 0.100000 "emin"  -4.0000 "emax"   4.0000 "kc  " 1.000000 "tc  " 0.0 "efdmin"  -999.00 "efdmax"   999.00 /
+ "tr" 0.0
+sexs               6000 "KVILLDAL    " 300.00  "3 "  : #9 "tatb" 1.000000 "tb" 0.100000 "k"  20.0000 "te" 0.100000 "emin"  -4.0000 "emax"   4.0000 "kc  " 1.000000 "tc  " 0.0 "efdmin"  -999.00 "efdmax"   999.00 /
+ "tr" 0.0
+sexs               6000 "KVILLDAL    " 300.00  "4 "  : #9 "tatb" 1.000000 "tb" 0.100000 "k"  20.0000 "te" 0.100000 "emin"  -4.0000 "emax"   4.0000 "kc  " 1.000000 "tc  " 0.0 "efdmin"  -999.00 "efdmax"   999.00 /
+ "tr" 0.0
+scrx               6100 "BLAFALLI    " 300.00  "1 "  : #9 "tatb" 0.253850 "tb"  13.0000 "k"  61.0000 "te" 0.050000 "emin" 0.0 "emax"   4.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               6100 "BLAFALLI    " 300.00  "2 "  : #9 "tatb" 0.253850 "tb"  13.0000 "k"  61.0000 "te" 0.050000 "emin" 0.0 "emax"   4.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               6100 "BLAFALLI    " 300.00  "3 "  : #9 "tatb" 0.253850 "tb"  13.0000 "k"  61.0000 "te" 0.050000 "emin" 0.0 "emax"   4.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               6100 "BLAFALLI    " 300.00  "4 "  : #9 "tatb" 0.253850 "tb"  13.0000 "k"  61.0000 "te" 0.050000 "emin" 0.0 "emax"   4.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               6100 "BLAFALLI    " 300.00  "5 "  : #9 "tatb" 0.253850 "tb"  13.0000 "k"  61.0000 "te" 0.050000 "emin" 0.0 "emax"   4.0000 "cswitch" 0.0 "rcrfd" 0.0
+hygov              5600 "KRISTIANSAND" 300.00  "1 "  : #9 mwcap=1650.0000 "rperm" 0.060000 "rtemp" 0.300000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.200000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              5600 "KRISTIANSAND" 300.00  "2 "  : #9 mwcap=1650.0000 "rperm" 0.060000 "rtemp" 0.300000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.200000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              5600 "KRISTIANSAND" 300.00  "3 "  : #9 mwcap=1650.0000 "rperm" 0.060000 "rtemp" 0.300000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.200000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              5600 "KRISTIANSAND" 300.00  "4 "  : #9 mwcap=1650.0000 "rperm" 0.060000 "rtemp" 0.300000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.200000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              6000 "KVILLDAL    " 300.00  "1 "  : #9 mwcap=680.0000 "rperm" 0.060000 "rtemp" 0.300000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.200000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              6000 "KVILLDAL    " 300.00  "2 "  : #9 mwcap=680.0000 "rperm" 0.060000 "rtemp" 0.300000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.200000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              6000 "KVILLDAL    " 300.00  "3 "  : #9 mwcap=680.0000 "rperm" 0.060000 "rtemp" 0.300000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.200000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              6000 "KVILLDAL    " 300.00  "4 "  : #9 mwcap=680.0000 "rperm" 0.060000 "rtemp" 0.300000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.200000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              6100 "BLAFALLI    " 300.00  "1 "  : #9 mwcap=1240.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.200000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              6100 "BLAFALLI    " 300.00  "2 "  : #9 mwcap=1240.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.200000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              6100 "BLAFALLI    " 300.00  "3 "  : #9 mwcap=1240.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.200000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              6100 "BLAFALLI    " 300.00  "4 "  : #9 mwcap=1240.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.200000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              6100 "BLAFALLI    " 300.00  "5 "  : #9 mwcap=1240.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.200000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+
+#
+#   area 13 [NO3                             ]
+#
+models
+gensal             6500 "TRONDHEIM   " 300.00  "1 "  : #9 mva=1100.0000 "tpdo" 5.4855 "tppdo" 0.0500 "tppqo" 0.1500 "h" 3.5580 "d" 0.0000 "ld" 1.0679 /
+ "lq" 0.6420 "lpd" 0.2386 "lppd" 0.1580 "ll" 0.1351 "s1" 0.1000 "s12" 0.3000 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             6500 "TRONDHEIM   " 300.00  "2 "  : #9 mva=1100.0000 "tpdo" 5.4855 "tppdo" 0.0500 "tppqo" 0.1500 "h" 3.5580 "d" 0.0000 "ld" 1.0679 /
+ "lq" 0.6420 "lpd" 0.2386 "lppd" 0.1580 "ll" 0.1351 "s1" 0.1000 "s12" 0.3000 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             6500 "TRONDHEIM   " 300.00  "3 "  : #9 mva=1100.0000 "tpdo" 5.4855 "tppdo" 0.0500 "tppqo" 0.1500 "h" 3.5580 "d" 0.0000 "ld" 1.0679 /
+ "lq" 0.6420 "lpd" 0.2386 "lppd" 0.1580 "ll" 0.1351 "s1" 0.1000 "s12" 0.3000 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             6500 "TRONDHEIM   " 300.00  "4 "  : #9 mva=1100.0000 "tpdo" 5.4855 "tppdo" 0.0500 "tppqo" 0.1500 "h" 3.5580 "d" 0.0000 "ld" 1.0679 /
+ "lq" 0.6420 "lpd" 0.2386 "lppd" 0.1580 "ll" 0.1351 "s1" 0.1000 "s12" 0.3000 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+sexs               6500 "TRONDHEIM   " 300.00  "1 "  : #9 "tatb" 0.050000 "tb" 100.0000 "k"   200.00 "te" 0.500000 "emin" 0.0 "emax"   4.0000 "kc  " 1.000000 "tc  " 0.0 "efdmin"  -999.00 "efdmax"   999.00 /
+ "tr" 0.0
+sexs               6500 "TRONDHEIM   " 300.00  "2 "  : #9 "tatb" 0.050000 "tb" 100.0000 "k"   200.00 "te" 0.500000 "emin" 0.0 "emax"   4.0000 "kc  " 1.000000 "tc  " 0.0 "efdmin"  -999.00 "efdmax"   999.00 /
+ "tr" 0.0
+sexs               6500 "TRONDHEIM   " 300.00  "3 "  : #9 "tatb" 0.050000 "tb" 100.0000 "k"   200.00 "te" 0.500000 "emin" 0.0 "emax"   4.0000 "kc  " 1.000000 "tc  " 0.0 "efdmin"  -999.00 "efdmax"   999.00 /
+ "tr" 0.0
+sexs               6500 "TRONDHEIM   " 300.00  "4 "  : #9 "tatb" 0.050000 "tb" 100.0000 "k"   200.00 "te" 0.500000 "emin" 0.0 "emax"   4.0000 "kc  " 1.000000 "tc  " 0.0 "efdmin"  -999.00 "efdmax"   999.00 /
+ "tr" 0.0
+hygov              6500 "TRONDHEIM   " 300.00  "1 "  : #9 mwcap=1100.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.200000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              6500 "TRONDHEIM   " 300.00  "2 "  : #9 mwcap=1100.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.200000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              6500 "TRONDHEIM   " 300.00  "3 "  : #9 mwcap=1100.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.200000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              6500 "TRONDHEIM   " 300.00  "4 "  : #9 mwcap=1100.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.200000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+
+#
+#   area 14 [NO4                             ]
+#
+models
+gensal             6700 "ROSSAGA     " 300.00  "1 "  : #9 mva=1200.0000 "tpdo" 5.2400 "tppdo" 0.0500 "tppqo" 0.1500 "h" 3.5920 "d" 0.0000 "ld" 1.1044 /
+ "lq" 0.6619 "lpd" 0.2548 "lppd" 0.1706 "ll" 0.1474 "s1" 0.1000 "s12" 0.3000 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             6700 "ROSSAGA     " 300.00  "2 "  : #9 mva=1200.0000 "tpdo" 5.2400 "tppdo" 0.0500 "tppqo" 0.1500 "h" 3.5920 "d" 0.0000 "ld" 1.1044 /
+ "lq" 0.6619 "lpd" 0.2548 "lppd" 0.1706 "ll" 0.1474 "s1" 0.1000 "s12" 0.3000 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             6700 "ROSSAGA     " 300.00  "3 "  : #9 mva=1200.0000 "tpdo" 5.2400 "tppdo" 0.0500 "tppqo" 0.1500 "h" 3.5920 "d" 0.0000 "ld" 1.1044 /
+ "lq" 0.6619 "lpd" 0.2548 "lppd" 0.1706 "ll" 0.1474 "s1" 0.1000 "s12" 0.3000 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             6700 "ROSSAGA     " 300.00  "4 "  : #9 mva=1200.0000 "tpdo" 5.2400 "tppdo" 0.0500 "tppqo" 0.1500 "h" 3.5920 "d" 0.0000 "ld" 1.1044 /
+ "lq" 0.6619 "lpd" 0.2548 "lppd" 0.1706 "ll" 0.1474 "s1" 0.1000 "s12" 0.3000 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+scrx               6700 "ROSSAGA     " 300.00  "1 "  : #9 "tatb" 0.253850 "tb"  13.0000 "k"  61.0000 "te" 0.050000 "emin" 0.0 "emax"   4.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               6700 "ROSSAGA     " 300.00  "2 "  : #9 "tatb" 0.253850 "tb"  13.0000 "k"  61.0000 "te" 0.050000 "emin" 0.0 "emax"   4.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               6700 "ROSSAGA     " 300.00  "3 "  : #9 "tatb" 0.253850 "tb"  13.0000 "k"  61.0000 "te" 0.050000 "emin" 0.0 "emax"   4.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               6700 "ROSSAGA     " 300.00  "4 "  : #9 "tatb" 0.253900 "tb"  13.0000 "k"  61.0000 "te" 0.050000 "emin" 0.0 "emax"   4.0000 "cswitch" 0.0 "rcrfd" 0.0
+hygov              6700 "ROSSAGA     " 300.00  "1 "  : #9 mwcap=1200.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.200000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              6700 "ROSSAGA     " 300.00  "2 "  : #9 mwcap=1200.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.200000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              6700 "ROSSAGA     " 300.00  "3 "  : #9 mwcap=1200.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.200000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              6700 "ROSSAGA     " 300.00  "4 "  : #9 mwcap=1200.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.200000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+
+#
+#   area 15 [NO5                             ]
+#
+models
+gensal             5300 "SIMA        " 300.00  "1 "  : #9 mva=1200.0000 "tpdo" 6.4000 "tppdo" 0.0500 "tppqo" 0.1500 "h" 3.5000 "d" 0.0000 "ld" 1.1400 /
+ "lq" 0.8400 "lpd" 0.3400 "lppd" 0.2600 "ll" 0.2000 "s1" 0.1000 "s12" 0.3000 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             5300 "SIMA        " 300.00  "2 "  : #9 mva=1200.0000 "tpdo" 6.4000 "tppdo" 0.0500 "tppqo" 0.1500 "h" 3.5000 "d" 0.0000 "ld" 1.1400 /
+ "lq" 0.8400 "lpd" 0.3400 "lppd" 0.2600 "ll" 0.2000 "s1" 0.1000 "s12" 0.3000 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             5300 "SIMA        " 300.00  "3 "  : #9 mva=1200.0000 "tpdo" 6.4000 "tppdo" 0.0500 "tppqo" 0.1500 "h" 3.5000 "d" 0.0000 "ld" 1.1400 /
+ "lq" 0.8400 "lpd" 0.3400 "lppd" 0.2600 "ll" 0.2000 "s1" 0.1000 "s12" 0.3000 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             5300 "SIMA        " 300.00  "4 "  : #9 mva=1200.0000 "tpdo" 6.4000 "tppdo" 0.0500 "tppqo" 0.1500 "h" 3.5000 "d" 0.0000 "ld" 1.1400 /
+ "lq" 0.8400 "lpd" 0.3400 "lppd" 0.2600 "ll" 0.2000 "s1" 0.1000 "s12" 0.3000 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             5300 "SIMA        " 300.00  "5 "  : #9 mva=1200.0000 "tpdo" 6.4000 "tppdo" 0.0500 "tppqo" 0.1500 "h" 3.5000 "d" 0.0000 "ld" 1.1400 /
+ "lq" 0.8400 "lpd" 0.3400 "lppd" 0.2600 "ll" 0.2000 "s1" 0.1000 "s12" 0.3000 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             5300 "SIMA        " 300.00  "6 "  : #9 mva=1200.0000 "tpdo" 6.4000 "tppdo" 0.0500 "tppqo" 0.1500 "h" 3.5000 "d" 0.0000 "ld" 1.1400 /
+ "lq" 0.8400 "lpd" 0.3400 "lppd" 0.2600 "ll" 0.2000 "s1" 0.1000 "s12" 0.3000 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+scrx               5300 "SIMA        " 300.00  "1 "  : #9 "tatb" 0.253850 "tb"  13.0000 "k"  61.0000 "te" 0.050000 "emin" 0.0 "emax"   4.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               5300 "SIMA        " 300.00  "2 "  : #9 "tatb" 0.253850 "tb"  13.0000 "k"  61.0000 "te" 0.050000 "emin" 0.0 "emax"   4.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               5300 "SIMA        " 300.00  "3 "  : #9 "tatb" 0.253850 "tb"  13.0000 "k"  61.0000 "te" 0.050000 "emin" 0.0 "emax"   4.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               5300 "SIMA        " 300.00  "4 "  : #9 "tatb" 0.253850 "tb"  13.0000 "k"  61.0000 "te" 0.050000 "emin" 0.0 "emax"   4.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               5300 "SIMA        " 300.00  "5 "  : #9 "tatb" 0.253850 "tb"  13.0000 "k"  61.0000 "te" 0.050000 "emin" 0.0 "emax"   4.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               5300 "SIMA        " 300.00  "6 "  : #9 "tatb" 0.253850 "tb"  13.0000 "k"  61.0000 "te" 0.050000 "emin" 0.0 "emax"   4.0000 "cswitch" 0.0 "rcrfd" 0.0
+hygov              5300 "SIMA        " 300.00  "1 "  : #9 mwcap=1200.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.200000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              5300 "SIMA        " 300.00  "2 "  : #9 mwcap=1200.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.200000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              5300 "SIMA        " 300.00  "3 "  : #9 mwcap=1200.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.200000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              5300 "SIMA        " 300.00  "4 "  : #9 mwcap=1200.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.200000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              5300 "SIMA        " 300.00  "5 "  : #9 mwcap=1200.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.200000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              5300 "SIMA        " 300.00  "6 "  : #9 mwcap=1200.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.200000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+
+#
+#   area 21 [SE1                             ]
+#
+models
+gensal             3115 "PORJUS      " 420.00  "1 "  : #9 mva=1100.0000 "tpdo" 7.5700 "tppdo" 0.0450 "tppqo" 0.1000 "h" 4.7410 "d" 0.0000 "ld" 0.9460 /
+ "lq" 0.5650 "lpd" 0.2900 "lppd" 0.2300 "ll" 0.1108 "s1" 0.1024 "s12" 0.2742 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             3115 "PORJUS      " 420.00  "2 "  : #9 mva=1100.0000 "tpdo" 7.5700 "tppdo" 0.0450 "tppqo" 0.1000 "h" 4.7410 "d" 0.0000 "ld" 0.9460 /
+ "lq" 0.5650 "lpd" 0.2900 "lppd" 0.2300 "ll" 0.1108 "s1" 0.1024 "s12" 0.2742 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             3115 "PORJUS      " 420.00  "3 "  : #9 mva=1100.0000 "tpdo" 7.5700 "tppdo" 0.0450 "tppqo" 0.1000 "h" 4.7410 "d" 0.0000 "ld" 0.9460 /
+ "lq" 0.5650 "lpd" 0.2900 "lppd" 0.2300 "ll" 0.1108 "s1" 0.1024 "s12" 0.2742 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             3115 "PORJUS      " 420.00  "4 "  : #9 mva=1100.0000 "tpdo" 7.5700 "tppdo" 0.0450 "tppqo" 0.1000 "h" 4.7410 "d" 0.0000 "ld" 0.9460 /
+ "lq" 0.5650 "lpd" 0.2900 "lppd" 0.2300 "ll" 0.1108 "s1" 0.1024 "s12" 0.2742 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             3115 "PORJUS      " 420.00  "5 "  : #9 mva=1100.0000 "tpdo" 7.5700 "tppdo" 0.0450 "tppqo" 0.1000 "h" 4.7410 "d" 0.0000 "ld" 0.9460 /
+ "lq" 0.5650 "lpd" 0.2900 "lppd" 0.2300 "ll" 0.1108 "s1" 0.1024 "s12" 0.2742 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+scrx               3115 "PORJUS      " 420.00  "1 "  : #9 "tatb" 0.253850 "tb"  13.0000 "k"  31.0000 "te" 0.050000 "emin" 0.0 "emax"   4.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               3115 "PORJUS      " 420.00  "2 "  : #9 "tatb" 0.253850 "tb"  13.0000 "k"  31.0000 "te" 0.050000 "emin" 0.0 "emax"   4.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               3115 "PORJUS      " 420.00  "3 "  : #9 "tatb" 0.253850 "tb"  13.0000 "k"  31.0000 "te" 0.050000 "emin" 0.0 "emax"   4.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               3115 "PORJUS      " 420.00  "4 "  : #9 "tatb" 0.253850 "tb"  13.0000 "k"  31.0000 "te" 0.050000 "emin" 0.0 "emax"   4.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               3115 "PORJUS      " 420.00  "5 "  : #9 "tatb" 0.253900 "tb"  13.0000 "k"  31.0000 "te" 0.050000 "emin" 0.0 "emax"   4.0000 "cswitch" 0.0 "rcrfd" 0.0
+hygov              3115 "PORJUS      " 420.00  "1 "  : #9 mwcap=1100.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.100000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.0577 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              3115 "PORJUS      " 420.00  "2 "  : #9 mwcap=1100.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.100000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.0577 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              3115 "PORJUS      " 420.00  "3 "  : #9 mwcap=1100.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.100000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.0577 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              3115 "PORJUS      " 420.00  "4 "  : #9 mwcap=1100.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.100000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.0577 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              3115 "PORJUS      " 420.00  "5 "  : #9 mwcap=1100.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.100000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.0577 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+
+#
+#   area 22 [SE2                             ]
+#
+models
+gensal             3245 "JARPSTROMMEN" 420.00  "1 "  : #9 mva=950.0000  "tpdo" 5.0000 "tppdo" 0.0600 "tppqo" 0.1000 "h" 3.3000 "d" 0.0000 "ld" 0.7500 /
+ "lq" 0.5000 "lpd" 0.2500 "lppd" 0.1539 "ll" 0.1154 "s1" 0.1024 "s12" 0.2742 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             3249 "GRUNDFORS   " 420.00  "1 "  : #9 mva=1357.0000 "tpdo" 10.1300 "tppdo" 0.0600 "tppqo" 0.1000 "h" 4.5430 "d" 0.0000 "ld" 1.0360 /
+ "lq" 0.6300 "lpd" 0.2800 "lppd" 0.2100 "ll" 0.1154 "s1" 0.1024 "s12" 0.2742 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             3249 "GRUNDFORS   " 420.00  "2 "  : #9 mva=1357.0000 "tpdo" 10.1300 "tppdo" 0.0600 "tppqo" 0.1000 "h" 4.5430 "d" 0.0000 "ld" 1.0360 /
+ "lq" 0.6300 "lpd" 0.2800 "lppd" 0.2100 "ll" 0.1154 "s1" 0.1024 "s12" 0.2742 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             3249 "GRUNDFORS   " 420.00  "3 "  : #9 mva=1357.0000 "tpdo" 10.1300 "tppdo" 0.0600 "tppqo" 0.1000 "h" 4.5430 "d" 0.0000 "ld" 1.0360 /
+ "lq" 0.6300 "lpd" 0.2800 "lppd" 0.2100 "ll" 0.1154 "s1" 0.1024 "s12" 0.2742 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             3249 "GRUNDFORS   " 420.00  "4 "  : #9 mva=1357.0000 "tpdo" 10.1300 "tppdo" 0.0600 "tppqo" 0.1000 "h" 4.5430 "d" 0.0000 "ld" 1.0360 /
+ "lq" 0.6300 "lpd" 0.2800 "lppd" 0.2100 "ll" 0.1154 "s1" 0.1024 "s12" 0.2742 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             3249 "GRUNDFORS   " 420.00  "5 "  : #9 mva=1357.0000 "tpdo" 10.1300 "tppdo" 0.0600 "tppqo" 0.1000 "h" 4.5430 "d" 0.0000 "ld" 1.0360 /
+ "lq" 0.6300 "lpd" 0.2800 "lppd" 0.2100 "ll" 0.1154 "s1" 0.1024 "s12" 0.2742 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             3249 "GRUNDFORS   " 420.00  "6 "  : #9 mva=1357.0000 "tpdo" 10.1300 "tppdo" 0.0600 "tppqo" 0.1000 "h" 4.5430 "d" 0.0000 "ld" 1.0360 /
+ "lq" 0.6300 "lpd" 0.2800 "lppd" 0.2100 "ll" 0.1154 "s1" 0.1024 "s12" 0.2742 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             3249 "GRUNDFORS   " 420.00  "7 "  : #9 mva=1357.0000 "tpdo" 10.1300 "tppdo" 0.0600 "tppqo" 0.1000 "h" 4.5430 "d" 0.0000 "ld" 1.0360 /
+ "lq" 0.6300 "lpd" 0.2800 "lppd" 0.2100 "ll" 0.1154 "s1" 0.1024 "s12" 0.2742 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             3249 "GRUNDFORS   " 420.00  "8 "  : #9 mva=1357.0000 "tpdo" 10.1300 "tppdo" 0.0600 "tppqo" 0.1000 "h" 4.5430 "d" 0.0000 "ld" 1.0360 /
+ "lq" 0.6300 "lpd" 0.2800 "lppd" 0.2100 "ll" 0.1154 "s1" 0.1024 "s12" 0.2742 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+scrx               3245 "JARPSTROMMEN" 420.00  "1 "  : #9 "tatb" 0.253850 "tb"  13.0000 "k"  31.0000 "te" 0.050000 "emin" 0.0 "emax"   4.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               3249 "GRUNDFORS   " 420.00  "1 "  : #9 "tatb" 0.253850 "tb"  13.0000 "k"  31.0000 "te" 0.050000 "emin" 0.0 "emax"   4.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               3249 "GRUNDFORS   " 420.00  "2 "  : #9 "tatb" 0.253850 "tb"  13.0000 "k"  31.0000 "te" 0.050000 "emin" 0.0 "emax"   4.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               3249 "GRUNDFORS   " 420.00  "3 "  : #9 "tatb" 0.253850 "tb"  13.0000 "k"  31.0000 "te" 0.050000 "emin" 0.0 "emax"   4.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               3249 "GRUNDFORS   " 420.00  "4 "  : #9 "tatb" 0.253850 "tb"  13.0000 "k"  31.0000 "te" 0.050000 "emin" 0.0 "emax"   4.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               3249 "GRUNDFORS   " 420.00  "5 "  : #9 "tatb" 0.253850 "tb"  13.0000 "k"  31.0000 "te" 0.050000 "emin" 0.0 "emax"   4.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               3249 "GRUNDFORS   " 420.00  "6 "  : #9 "tatb" 0.253850 "tb"  13.0000 "k"  31.0000 "te" 0.050000 "emin" 0.0 "emax"   4.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               3249 "GRUNDFORS   " 420.00  "7 "  : #9 "tatb" 0.253850 "tb"  13.0000 "k"  31.0000 "te" 0.050000 "emin" 0.0 "emax"   4.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               3249 "GRUNDFORS   " 420.00  "8 "  : #9 "tatb" 0.253850 "tb"  13.0000 "k"  31.0000 "te" 0.050000 "emin" 0.0 "emax"   4.0000 "cswitch" 0.0 "rcrfd" 0.0
+hygov              3245 "JARPSTROMMEN" 420.00  "1 "  : #9 mwcap=950.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.100000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.0100 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              3249 "GRUNDFORS   " 420.00  "1 "  : #9 mwcap=1357.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.100000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              3249 "GRUNDFORS   " 420.00  "2 "  : #9 mwcap=1357.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.100000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              3249 "GRUNDFORS   " 420.00  "3 "  : #9 mwcap=1357.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.100000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              3249 "GRUNDFORS   " 420.00  "4 "  : #9 mwcap=1357.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.100000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              3249 "GRUNDFORS   " 420.00  "5 "  : #9 mwcap=1357.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.100000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              3249 "GRUNDFORS   " 420.00  "6 "  : #9 mwcap=1357.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.100000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              3249 "GRUNDFORS   " 420.00  "7 "  : #9 mwcap=1357.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.100000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              3249 "GRUNDFORS   " 420.00  "8 "  : #9 mwcap=1357.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.100000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.1000 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+
+#
+#   area 23 [SE3                             ]
+#
+models
+genrou             3000 "FORSMARK    " 420.00  "1 "  : #9 mva=1300.0000 "tpdo" 5.0000 "tppdo" 0.0500 "tpqo" 1.0000 "tppqo" 0.0500 "h" 5.9700 "d" 0.0000 "ld" 2.2200 /
+ "lq" 2.1300 "lpd" 0.3600 "lpq" 0.4680 "lppd" 0.2250 "ll" 0.1688 "s1" 0.1089 "s12" 0.3780 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000 "accel" 0.0000
+genrou             3000 "FORSMARK    " 420.00  "2 "  : #9 mva=1300.0000 "tpdo" 5.0000 "tppdo" 0.0500 "tpqo" 1.0000 "tppqo" 0.0500 "h" 5.9700 "d" 0.0000 "ld" 2.2200 /
+ "lq" 2.1300 "lpd" 0.3600 "lpq" 0.4680 "lppd" 0.2250 "ll" 0.1688 "s1" 0.1089 "s12" 0.3780 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000 "accel" 0.0000
+genrou             3000 "FORSMARK    " 420.00  "3 "  : #9 mva=1300.0000 "tpdo" 5.0000 "tppdo" 0.0500 "tpqo" 1.0000 "tppqo" 0.0500 "h" 5.9700 "d" 0.0000 "ld" 2.2200 /
+ "lq" 2.1300 "lpd" 0.3600 "lpq" 0.4680 "lppd" 0.2250 "ll" 0.1688 "s1" 0.1089 "s12" 0.3780 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000 "accel" 0.0000
+genrou             3300 "OSKARSHAMN  " 420.00  "1 "  : #9 mva=1100.0000 "tpdo" 10.8000 "tppdo" 0.0500 "tpqo" 1.0000 "tppqo" 0.0500 "h" 6.0000 "d" 0.0000 "ld" 2.4200 /
+ "lq" 2.0000 "lpd" 0.2300 "lpq" 0.4108 "lppd" 0.1600 "ll" 0.1481 "s1" 0.1089 "s12" 0.3780 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000 "accel" 0.0000
+genrou             3300 "OSKARSHAMN  " 420.00  "2 "  : #9 mva=1100.0000 "tpdo" 10.8000 "tppdo" 0.0500 "tpqo" 1.0000 "tppqo" 0.0500 "h" 6.0000 "d" 0.0000 "ld" 2.4200 /
+ "lq" 2.0000 "lpd" 0.2300 "lpq" 0.4108 "lppd" 0.1600 "ll" 0.1481 "s1" 0.1089 "s12" 0.3780 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000 "accel" 0.0000
+genrou             3300 "OSKARSHAMN  " 420.00  "3 "  : #9 mva=1100.0000 "tpdo" 10.8000 "tppdo" 0.0500 "tpqo" 1.0000 "tppqo" 0.0500 "h" 6.0000 "d" 0.0000 "ld" 2.4200 /
+ "lq" 2.0000 "lpd" 0.2300 "lpq" 0.4108 "lppd" 0.1600 "ll" 0.1481 "s1" 0.1089 "s12" 0.3780 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000 "accel" 0.0000
+genrou             3300 "OSKARSHAMN  " 420.00  "4 "  : #9 mva=1100.0000 "tpdo" 10.8000 "tppdo" 0.0500 "tpqo" 1.0000 "tppqo" 0.0500 "h" 6.0000 "d" 0.0000 "ld" 2.4200 /
+ "lq" 2.0000 "lpd" 0.2300 "lpq" 0.4108 "lppd" 0.1600 "ll" 0.1481 "s1" 0.1089 "s12" 0.3780 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000 "accel" 0.0000
+genrou             3300 "OSKARSHAMN  " 420.00  "5 "  : #9 mva=1100.0000 "tpdo" 10.8000 "tppdo" 0.0500 "tpqo" 1.0000 "tppqo" 0.0500 "h" 6.0000 "d" 0.0000 "ld" 2.4200 /
+ "lq" 2.0000 "lpd" 0.2300 "lpq" 0.4108 "lppd" 0.1600 "ll" 0.1481 "s1" 0.1089 "s12" 0.3780 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000 "accel" 0.0000
+genrou             3300 "OSKARSHAMN  " 420.00  "6 "  : #9 mva=1100.0000 "tpdo" 10.8000 "tppdo" 0.0500 "tpqo" 1.0000 "tppqo" 0.0500 "h" 6.0000 "d" 0.0000 "ld" 2.4200 /
+ "lq" 2.0000 "lpd" 0.2300 "lpq" 0.4108 "lppd" 0.1600 "ll" 0.1481 "s1" 0.1089 "s12" 0.3780 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000 "accel" 0.0000
+genrou             3359 "RINGHALS    " 420.00  "1 "  : #9 mva=1350.0000 "tpdo" 4.7500 "tppdo" 0.0500 "tpqo" 1.0000 "tppqo" 0.0500 "h" 4.8200 "d" 0.0000 "ld" 2.1300 /
+ "lq" 2.0300 "lpd" 0.3100 "lpq" 0.4030 "lppd" 0.1937 "ll" 0.1453 "s1" 0.1089 "s12" 0.3780 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000 "accel" 0.0000
+genrou             3359 "RINGHALS    " 420.00  "2 "  : #9 mva=1350.0000 "tpdo" 4.7500 "tppdo" 0.0500 "tpqo" 1.0000 "tppqo" 0.0500 "h" 4.8200 "d" 0.0000 "ld" 2.1300 /
+ "lq" 2.0300 "lpd" 0.3100 "lpq" 0.4030 "lppd" 0.1937 "ll" 0.1453 "s1" 0.1089 "s12" 0.3780 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000 "accel" 0.0000
+genrou             3359 "RINGHALS    " 420.00  "3 "  : #9 mva=1350.0000 "tpdo" 4.7500 "tppdo" 0.0500 "tpqo" 1.0000 "tppqo" 0.0500 "h" 4.8200 "d" 0.0000 "ld" 2.1300 /
+ "lq" 2.0300 "lpd" 0.3100 "lpq" 0.4030 "lppd" 0.1937 "ll" 0.1453 "s1" 0.1089 "s12" 0.3780 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000 "accel" 0.0000
+genrou             3359 "RINGHALS    " 420.00  "4 "  : #9 mva=1350.0000 "tpdo" 4.7500 "tppdo" 0.0500 "tpqo" 1.0000 "tppqo" 0.0500 "h" 4.8200 "d" 0.0000 "ld" 2.1300 /
+ "lq" 2.0300 "lpd" 0.3100 "lpq" 0.4030 "lppd" 0.1937 "ll" 0.1453 "s1" 0.1089 "s12" 0.3780 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000 "accel" 0.0000
+genrou             3359 "RINGHALS    " 420.00  "5 "  : #9 mva=1350.0000 "tpdo" 4.7500 "tppdo" 0.0500 "tpqo" 1.0000 "tppqo" 0.0500 "h" 4.8200 "d" 0.0000 "ld" 2.1300 /
+ "lq" 2.0300 "lpd" 0.3100 "lpq" 0.4030 "lppd" 0.1937 "ll" 0.1453 "s1" 0.1089 "s12" 0.3780 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000 "accel" 0.0000
+genrou             3359 "RINGHALS    " 420.00  "6 "  : #9 mva=1350.0000 "tpdo" 4.7500 "tppdo" 0.0500 "tpqo" 1.0000 "tppqo" 0.0500 "h" 4.8200 "d" 0.0000 "ld" 2.1300 /
+ "lq" 2.0300 "lpd" 0.3100 "lpq" 0.4030 "lppd" 0.1937 "ll" 0.1453 "s1" 0.1089 "s12" 0.3780 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000 "accel" 0.0000
+esac2a             3000 "FORSMARK    " 420.00  "1 "  : #9 "tr" 0.0 "tb" 0.0 "tc" 0.0 "ka"   400.00 "ta" 0.010000 "vamax"  10.0000 "vamin" -10.0000 "kb"  20.0000 "vrmax"  63.7000 "vrmin" -57.3000 /
+ "te"   1.4000 "vfemax"  10.6000 "kh" 1.000000 "kf" 0.023000 "tf" 1.000000 "kc" 0.455000 "kd" 0.321000 "ke" 1.000000 "e1"   4.6500 "se1" 0.075000 /
+ "e2"   6.2000 "se2" 0.704000 "spdmlt" 0.0
+esac2a             3000 "FORSMARK    " 420.00  "2 "  : #9 "tr" 0.0 "tb" 0.0 "tc" 0.0 "ka"   400.00 "ta" 0.010000 "vamax"  10.0000 "vamin" -10.0000 "kb"  20.0000 "vrmax"  63.7000 "vrmin" -57.3000 /
+ "te"   1.4000 "vfemax"  10.6000 "kh" 1.000000 "kf" 0.023000 "tf" 1.000000 "kc" 0.455000 "kd" 0.321000 "ke" 1.000000 "e1"   4.6500 "se1" 0.075000 /
+ "e2"   6.2000 "se2" 0.704000 "spdmlt" 0.0
+esac2a             3000 "FORSMARK    " 420.00  "3 "  : #9 "tr" 0.0 "tb" 0.0 "tc" 0.0 "ka"   400.00 "ta" 0.010000 "vamax"  10.0000 "vamin" -10.0000 "kb"  20.0000 "vrmax"  63.7000 "vrmin" -57.3000 /
+ "te"   1.4000 "vfemax"  10.6000 "kh" 1.000000 "kf" 0.023000 "tf" 1.000000 "kc" 0.455000 "kd" 0.321000 "ke" 1.000000 "e1"   4.6500 "se1" 0.075000 /
+ "e2"   6.2000 "se2" 0.704000 "spdmlt" 0.0
+scrx               3300 "OSKARSHAMN  " 420.00  "1 "  : #9 "tatb" 0.0 "tb" 0.040000 "k"  10.0000 "te" 0.040000 "emin" 0.0 "emax"   5.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               3300 "OSKARSHAMN  " 420.00  "2 "  : #9 "tatb" 0.0 "tb" 0.040000 "k"  10.0000 "te" 0.040000 "emin" 0.0 "emax"   5.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               3300 "OSKARSHAMN  " 420.00  "3 "  : #9 "tatb" 0.0 "tb" 0.040000 "k"  10.0000 "te" 0.040000 "emin" 0.0 "emax"   5.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               3300 "OSKARSHAMN  " 420.00  "4 "  : #9 "tatb" 0.0 "tb" 0.040000 "k"  10.0000 "te" 0.040000 "emin" 0.0 "emax"   5.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               3300 "OSKARSHAMN  " 420.00  "5 "  : #9 "tatb" 0.0 "tb" 0.040000 "k"  10.0000 "te" 0.040000 "emin" 0.0 "emax"   5.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               3300 "OSKARSHAMN  " 420.00  "6 "  : #9 "tatb" 0.0 "tb" 0.040000 "k"  10.0000 "te" 0.040000 "emin" 0.0 "emax"   5.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               3359 "RINGHALS    " 420.00  "1 "  : #9 "tatb" 0.200000 "tb"  10.0000 "k"   165.00 "te" 0.040000 "emin" 0.0 "emax"   5.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               3359 "RINGHALS    " 420.00  "2 "  : #9 "tatb" 0.200000 "tb"  10.0000 "k"   165.00 "te" 0.040000 "emin" 0.0 "emax"   5.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               3359 "RINGHALS    " 420.00  "3 "  : #9 "tatb" 0.200000 "tb"  10.0000 "k"   165.00 "te" 0.040000 "emin" 0.0 "emax"   5.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               3359 "RINGHALS    " 420.00  "4 "  : #9 "tatb" 0.200000 "tb"  10.0000 "k"   165.00 "te" 0.040000 "emin" 0.0 "emax"   5.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               3359 "RINGHALS    " 420.00  "5 "  : #9 "tatb" 0.200000 "tb"  10.0000 "k"   165.00 "te" 0.040000 "emin" 0.0 "emax"   5.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               3359 "RINGHALS    " 420.00  "6 "  : #9 "tatb" 0.200000 "tb"  10.0000 "k"   165.00 "te" 0.040000 "emin" 0.0 "emax"   5.0000 "cswitch" 0.0 "rcrfd" 0.0
+ieeeg1             3000 "FORSMARK    " 420.00  "1 "  : #9 mwcap=1300.0000 "k" 0.0 "t1" 0.010000 "t2" 0.0 "t3" 0.150000 "uo"  99.0000 "uc" -99.0000 "pmax" 1.000000 "pmin" 0.0 "t4" 0.300000 "k1" 0.300000 /
+ "k2" 0.0 "t5"   8.0000 "k3" 0.399000 "k4" 0.0 "t6" 0.400000 "k5" 0.301000 "k6" 0.0 "t7" 0.0 "k7" 0.0 "k8" 0.0 /
+ "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 /
+ "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 "gv6" 0.0 "pgv6" 0.0
+ieeeg1             3000 "FORSMARK    " 420.00  "2 "  : #9 mwcap=1300.0000 "k" 0.0 "t1" 0.010000 "t2" 0.0 "t3" 0.150000 "uo"  99.0000 "uc" -99.0000 "pmax" 1.000000 "pmin" 0.0 "t4" 0.300000 "k1" 0.300000 /
+ "k2" 0.0 "t5"   8.0000 "k3" 0.399000 "k4" 0.0 "t6" 0.400000 "k5" 0.301000 "k6" 0.0 "t7" 0.0 "k7" 0.0 "k8" 0.0 /
+ "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 /
+ "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 "gv6" 0.0 "pgv6" 0.0
+ieeeg1             3000 "FORSMARK    " 420.00  "3 "  : #9 mwcap=1300.0000 "k" 0.0 "t1" 0.010000 "t2" 0.0 "t3" 0.150000 "uo"  99.0000 "uc" -99.0000 "pmax" 1.000000 "pmin" 0.0 "t4" 0.300000 "k1" 0.300000 /
+ "k2" 0.0 "t5"   8.0000 "k3" 0.399000 "k4" 0.0 "t6" 0.400000 "k5" 0.301000 "k6" 0.0 "t7" 0.0 "k7" 0.0 "k8" 0.0 /
+ "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 /
+ "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 "gv6" 0.0 "pgv6" 0.0
+ieeeg1             3300 "OSKARSHAMN  " 420.00  "1 "  : #9 mwcap=1100.0000 "k" 0.0 "t1" 0.010000 "t2" 0.0 "t3" 0.150000 "uo"  99.0000 "uc" -99.0000 "pmax" 1.000000 "pmin" 0.0 "t4" 0.300000 "k1" 0.300000 /
+ "k2" 0.0 "t5"   8.0000 "k3" 0.399000 "k4" 0.0 "t6" 0.400000 "k5" 0.301000 "k6" 0.0 "t7" 0.0 "k7" 0.0 "k8" 0.0 /
+ "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 /
+ "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 "gv6" 0.0 "pgv6" 0.0
+ieeeg1             3300 "OSKARSHAMN  " 420.00  "2 "  : #9 mwcap=1100.0000 "k" 0.0 "t1" 0.010000 "t2" 0.0 "t3" 0.150000 "uo"  99.0000 "uc" -99.0000 "pmax" 1.000000 "pmin" 0.0 "t4" 0.300000 "k1" 0.300000 /
+ "k2" 0.0 "t5"   8.0000 "k3" 0.399000 "k4" 0.0 "t6" 0.400000 "k5" 0.301000 "k6" 0.0 "t7" 0.0 "k7" 0.0 "k8" 0.0 /
+ "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 /
+ "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 "gv6" 0.0 "pgv6" 0.0
+ieeeg1             3300 "OSKARSHAMN  " 420.00  "3 "  : #9 mwcap=1100.0000 "k" 0.0 "t1" 0.010000 "t2" 0.0 "t3" 0.150000 "uo"  99.0000 "uc" -99.0000 "pmax" 1.000000 "pmin" 0.0 "t4" 0.300000 "k1" 0.300000 /
+ "k2" 0.0 "t5"   8.0000 "k3" 0.399000 "k4" 0.0 "t6" 0.400000 "k5" 0.301000 "k6" 0.0 "t7" 0.0 "k7" 0.0 "k8" 0.0 /
+ "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 /
+ "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 "gv6" 0.0 "pgv6" 0.0
+ieeeg1             3300 "OSKARSHAMN  " 420.00  "4 "  : #9 mwcap=1100.0000 "k" 0.0 "t1" 0.010000 "t2" 0.0 "t3" 0.150000 "uo"  99.0000 "uc" -99.0000 "pmax" 1.000000 "pmin" 0.0 "t4" 0.300000 "k1" 0.300000 /
+ "k2" 0.0 "t5"   8.0000 "k3" 0.399000 "k4" 0.0 "t6" 0.400000 "k5" 0.301000 "k6" 0.0 "t7" 0.0 "k7" 0.0 "k8" 0.0 /
+ "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 /
+ "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 "gv6" 0.0 "pgv6" 0.0
+ieeeg1             3300 "OSKARSHAMN  " 420.00  "5 "  : #9 mwcap=1100.0000 "k" 0.0 "t1" 0.010000 "t2" 0.0 "t3" 0.150000 "uo"  99.0000 "uc" -99.0000 "pmax" 1.000000 "pmin" 0.0 "t4" 0.300000 "k1" 0.300000 /
+ "k2" 0.0 "t5"   8.0000 "k3" 0.399000 "k4" 0.0 "t6" 0.400000 "k5" 0.301000 "k6" 0.0 "t7" 0.0 "k7" 0.0 "k8" 0.0 /
+ "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 /
+ "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 "gv6" 0.0 "pgv6" 0.0
+ieeeg1             3300 "OSKARSHAMN  " 420.00  "6 "  : #9 mwcap=1100.0000 "k" 0.0 "t1" 0.010000 "t2" 0.0 "t3" 0.150000 "uo"  99.0000 "uc" -99.0000 "pmax" 1.000000 "pmin" 0.0 "t4" 0.300000 "k1" 0.300000 /
+ "k2" 0.0 "t5"   8.0000 "k3" 0.399000 "k4" 0.0 "t6" 0.400000 "k5" 0.301000 "k6" 0.0 "t7" 0.0 "k7" 0.0 "k8" 0.0 /
+ "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 /
+ "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 "gv6" 0.0 "pgv6" 0.0
+ieeeg1             3359 "RINGHALS    " 420.00  "1 "  : #9 mwcap=1350.0000 "k" 0.0 "t1" 0.010000 "t2" 0.0 "t3" 0.150000 "uo"  99.0000 "uc" -99.0000 "pmax" 1.000000 "pmin" 0.0 "t4" 0.300000 "k1" 0.300000 /
+ "k2" 0.0 "t5"   8.0000 "k3" 0.399000 "k4" 0.0 "t6" 0.400000 "k5" 0.301000 "k6" 0.0 "t7" 0.0 "k7" 0.0 "k8" 0.0 /
+ "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 /
+ "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 "gv6" 0.0 "pgv6" 0.0
+ieeeg1             3359 "RINGHALS    " 420.00  "2 "  : #9 mwcap=1350.0000 "k" 0.0 "t1" 0.010000 "t2" 0.0 "t3" 0.150000 "uo"  99.0000 "uc" -99.0000 "pmax" 1.000000 "pmin" 0.0 "t4" 0.300000 "k1" 0.300000 /
+ "k2" 0.0 "t5"   8.0000 "k3" 0.399000 "k4" 0.0 "t6" 0.400000 "k5" 0.301000 "k6" 0.0 "t7" 0.0 "k7" 0.0 "k8" 0.0 /
+ "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 /
+ "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 "gv6" 0.0 "pgv6" 0.0
+ieeeg1             3359 "RINGHALS    " 420.00  "3 "  : #9 mwcap=1350.0000 "k" 0.0 "t1" 0.010000 "t2" 0.0 "t3" 0.150000 "uo"  99.0000 "uc" -99.0000 "pmax" 1.000000 "pmin" 0.0 "t4" 0.300000 "k1" 0.300000 /
+ "k2" 0.0 "t5"   8.0000 "k3" 0.399000 "k4" 0.0 "t6" 0.400000 "k5" 0.301000 "k6" 0.0 "t7" 0.0 "k7" 0.0 "k8" 0.0 /
+ "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 /
+ "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 "gv6" 0.0 "pgv6" 0.0
+ieeeg1             3359 "RINGHALS    " 420.00  "4 "  : #9 mwcap=1350.0000 "k" 0.0 "t1" 0.010000 "t2" 0.0 "t3" 0.150000 "uo"  99.0000 "uc" -99.0000 "pmax" 1.000000 "pmin" 0.0 "t4" 0.300000 "k1" 0.300000 /
+ "k2" 0.0 "t5"   8.0000 "k3" 0.399000 "k4" 0.0 "t6" 0.400000 "k5" 0.301000 "k6" 0.0 "t7" 0.0 "k7" 0.0 "k8" 0.0 /
+ "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 /
+ "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 "gv6" 0.0 "pgv6" 0.0
+ieeeg1             3359 "RINGHALS    " 420.00  "5 "  : #9 mwcap=1350.0000 "k" 0.0 "t1" 0.010000 "t2" 0.0 "t3" 0.150000 "uo"  99.0000 "uc" -99.0000 "pmax" 1.000000 "pmin" 0.0 "t4" 0.300000 "k1" 0.300000 /
+ "k2" 0.0 "t5"   8.0000 "k3" 0.399000 "k4" 0.0 "t6" 0.400000 "k5" 0.301000 "k6" 0.0 "t7" 0.0 "k7" 0.0 "k8" 0.0 /
+ "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 /
+ "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 "gv6" 0.0 "pgv6" 0.0
+ieeeg1             3359 "RINGHALS    " 420.00  "6 "  : #9 mwcap=1350.0000 "k" 0.0 "t1" 0.010000 "t2" 0.0 "t3" 0.150000 "uo"  99.0000 "uc" -99.0000 "pmax" 1.000000 "pmin" 0.0 "t4" 0.300000 "k1" 0.300000 /
+ "k2" 0.0 "t5"   8.0000 "k3" 0.399000 "k4" 0.0 "t6" 0.400000 "k5" 0.301000 "k6" 0.0 "t7" 0.0 "k7" 0.0 "k8" 0.0 /
+ "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 /
+ "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 "gv6" 0.0 "pgv6" 0.0
+
+#
+#   area 24 [SE4                             ]
+#
+models
+genrou             8500 "MALMO       " 420.00  "1 "  : #9 mva=1300.0000 "tpdo" 10.0000 "tppdo" 0.0500 "tpqo" 1.0000 "tppqo" 0.0500 "h" 7.0000 "d" 0.0000 "ld" 2.4200 /
+ "lq" 2.0000 "lpd" 0.2300 "lpq" 0.4108 "lppd" 0.1706 "ll" 0.1481 "s1" 0.1089 "s12" 0.3780 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000 "accel" 0.0000
+genrou             8500 "MALMO       " 420.00  "2 "  : #9 mva=1300.0000 "tpdo" 10.0000 "tppdo" 0.0500 "tpqo" 1.0000 "tppqo" 0.0500 "h" 7.0000 "d" 0.0000 "ld" 2.4200 /
+ "lq" 2.0000 "lpd" 0.2300 "lpq" 0.4108 "lppd" 0.1706 "ll" 0.1481 "s1" 0.1089 "s12" 0.3780 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000 "accel" 0.0000
+genrou             8500 "MALMO       " 420.00  "3 "  : #9 mva=1300.0000 "tpdo" 10.0000 "tppdo" 0.0500 "tpqo" 1.0000 "tppqo" 0.0500 "h" 7.0000 "d" 0.0000 "ld" 2.4200 /
+ "lq" 2.0000 "lpd" 0.2300 "lpq" 0.4108 "lppd" 0.1706 "ll" 0.1481 "s1" 0.1089 "s12" 0.3780 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000 "accel" 0.0000
+genrou             8500 "MALMO       " 420.00  "4 "  : #9 mva=1300.0000 "tpdo" 10.0000 "tppdo" 0.0500 "tpqo" 1.0000 "tppqo" 0.0500 "h" 7.0000 "d" 0.0000 "ld" 2.4200 /
+ "lq" 2.0000 "lpd" 0.2300 "lpq" 0.4108 "lppd" 0.1706 "ll" 0.1481 "s1" 0.1089 "s12" 0.3780 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000 "accel" 0.0000
+genrou             8500 "MALMO       " 420.00  "5 "  : #9 mva=1300.0000 "tpdo" 10.0000 "tppdo" 0.0500 "tpqo" 1.0000 "tppqo" 0.0500 "h" 7.0000 "d" 0.0000 "ld" 2.4200 /
+ "lq" 2.0000 "lpd" 0.2300 "lpq" 0.4108 "lppd" 0.1706 "ll" 0.1481 "s1" 0.1089 "s12" 0.3780 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000 "accel" 0.0000
+genrou             8500 "MALMO       " 420.00  "6 "  : #9 mva=1300.0000 "tpdo" 10.0000 "tppdo" 0.0500 "tpqo" 1.0000 "tppqo" 0.0500 "h" 7.0000 "d" 0.0000 "ld" 2.4200 /
+ "lq" 2.0000 "lpd" 0.2300 "lpq" 0.4108 "lppd" 0.1706 "ll" 0.1481 "s1" 0.1089 "s12" 0.3780 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000 "accel" 0.0000
+scrx               8500 "MALMO       " 420.00  "1 "  : #9 "tatb" 0.0 "tb" 0.040000 "k"  10.0000 "te" 0.040000 "emin" 0.0 "emax"   5.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               8500 "MALMO       " 420.00  "2 "  : #9 "tatb" 0.0 "tb" 0.040000 "k"  10.0000 "te" 0.040000 "emin" 0.0 "emax"   5.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               8500 "MALMO       " 420.00  "3 "  : #9 "tatb" 0.0 "tb" 0.040000 "k"  10.0000 "te" 0.040000 "emin" 0.0 "emax"   5.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               8500 "MALMO       " 420.00  "4 "  : #9 "tatb" 0.0 "tb" 0.040000 "k"  10.0000 "te" 0.040000 "emin" 0.0 "emax"   5.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               8500 "MALMO       " 420.00  "5 "  : #9 "tatb" 0.0 "tb" 0.040000 "k"  10.0000 "te" 0.040000 "emin" 0.0 "emax"   5.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               8500 "MALMO       " 420.00  "6 "  : #9 "tatb" 0.0 "tb" 0.040000 "k"  10.0000 "te" 0.040000 "emin" 0.0 "emax"   5.0000 "cswitch" 0.0 "rcrfd" 0.0
+ieeeg1             8500 "MALMO       " 420.00  "1 "  : #9 mwcap=1300.0000 "k" 0.0 "t1" 0.010000 "t2" 0.0 "t3" 0.150000 "uo"  99.0000 "uc" -99.0000 "pmax" 1.000000 "pmin" 0.0 "t4" 0.300000 "k1" 0.300000 /
+ "k2" 0.0 "t5"   8.0000 "k3" 0.399000 "k4" 0.0 "t6" 0.400000 "k5" 0.301000 "k6" 0.0 "t7" 0.0 "k7" 0.0 "k8" 0.0 /
+ "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 /
+ "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 "gv6" 0.0 "pgv6" 0.0
+ieeeg1             8500 "MALMO       " 420.00  "2 "  : #9 mwcap=1300.0000 "k" 0.0 "t1" 0.010000 "t2" 0.0 "t3" 0.150000 "uo"  99.0000 "uc" -99.0000 "pmax" 1.000000 "pmin" 0.0 "t4" 0.300000 "k1" 0.300000 /
+ "k2" 0.0 "t5"   8.0000 "k3" 0.399000 "k4" 0.0 "t6" 0.400000 "k5" 0.301000 "k6" 0.0 "t7" 0.0 "k7" 0.0 "k8" 0.0 /
+ "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 /
+ "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 "gv6" 0.0 "pgv6" 0.0
+ieeeg1             8500 "MALMO       " 420.00  "3 "  : #9 mwcap=1300.0000 "k" 0.0 "t1" 0.010000 "t2" 0.0 "t3" 0.150000 "uo"  99.0000 "uc" -99.0000 "pmax" 1.000000 "pmin" 0.0 "t4" 0.300000 "k1" 0.300000 /
+ "k2" 0.0 "t5"   8.0000 "k3" 0.399000 "k4" 0.0 "t6" 0.400000 "k5" 0.301000 "k6" 0.0 "t7" 0.0 "k7" 0.0 "k8" 0.0 /
+ "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 /
+ "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 "gv6" 0.0 "pgv6" 0.0
+ieeeg1             8500 "MALMO       " 420.00  "4 "  : #9 mwcap=1300.0000 "k" 0.0 "t1" 0.010000 "t2" 0.0 "t3" 0.150000 "uo"  99.0000 "uc" -99.0000 "pmax" 1.000000 "pmin" 0.0 "t4" 0.300000 "k1" 0.300000 /
+ "k2" 0.0 "t5"   8.0000 "k3" 0.399000 "k4" 0.0 "t6" 0.400000 "k5" 0.301000 "k6" 0.0 "t7" 0.0 "k7" 0.0 "k8" 0.0 /
+ "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 /
+ "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 "gv6" 0.0 "pgv6" 0.0
+ieeeg1             8500 "MALMO       " 420.00  "5 "  : #9 mwcap=1300.0000 "k" 0.0 "t1" 0.010000 "t2" 0.0 "t3" 0.150000 "uo"  99.0000 "uc" -99.0000 "pmax" 1.000000 "pmin" 0.0 "t4" 0.300000 "k1" 0.300000 /
+ "k2" 0.0 "t5"   8.0000 "k3" 0.399000 "k4" 0.0 "t6" 0.400000 "k5" 0.301000 "k6" 0.0 "t7" 0.0 "k7" 0.0 "k8" 0.0 /
+ "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 /
+ "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 "gv6" 0.0 "pgv6" 0.0
+ieeeg1             8500 "MALMO       " 420.00  "6 "  : #9 mwcap=1300.0000 "k" 0.0 "t1" 0.010000 "t2" 0.0 "t3" 0.150000 "uo"  99.0000 "uc" -99.0000 "pmax" 1.000000 "pmin" 0.0 "t4" 0.300000 "k1" 0.300000 /
+ "k2" 0.0 "t5"   8.0000 "k3" 0.399000 "k4" 0.0 "t6" 0.400000 "k5" 0.301000 "k6" 0.0 "t7" 0.0 "k7" 0.0 "k8" 0.0 /
+ "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 /
+ "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 "gv6" 0.0 "pgv6" 0.0
+
+#
+#   area 31 [FI1                             ]
+#
+models
+genrou             7000 "HELSINKI    " 420.00  "1 "  : #9 mva=1278.0000 "tpdo" 10.0000 "tppdo" 0.0500 "tpqo" 1.0000 "tppqo" 0.0500 "h" 5.5000 "d" 0.0000 "ld" 2.2200 /
+ "lq" 2.1300 "lpd" 0.3600 "lpq" 0.4680 "lppd" 0.2250 "ll" 0.1688 "s1" 0.1089 "s12" 0.3780 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000 "accel" 0.0000
+genrou             7000 "HELSINKI    " 420.00  "2 "  : #9 mva=1278.0000 "tpdo" 10.0000 "tppdo" 0.0500 "tpqo" 1.0000 "tppqo" 0.0500 "h" 5.5000 "d" 0.0000 "ld" 2.2200 /
+ "lq" 2.1300 "lpd" 0.3600 "lpq" 0.4680 "lppd" 0.2250 "ll" 0.1688 "s1" 0.1089 "s12" 0.3780 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000 "accel" 0.0000
+genrou             7000 "HELSINKI    " 420.00  "3 "  : #9 mva=1278.0000 "tpdo" 10.0000 "tppdo" 0.0500 "tpqo" 1.0000 "tppqo" 0.0500 "h" 5.5000 "d" 0.0000 "ld" 2.2200 /
+ "lq" 2.1300 "lpd" 0.3600 "lpq" 0.4680 "lppd" 0.2250 "ll" 0.1688 "s1" 0.1089 "s12" 0.3780 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000 "accel" 0.0000
+genrou             7000 "HELSINKI    " 420.00  "4 "  : #9 mva=1278.0000 "tpdo" 10.0000 "tppdo" 0.0500 "tpqo" 1.0000 "tppqo" 0.0500 "h" 5.5000 "d" 0.0000 "ld" 2.2200 /
+ "lq" 2.1300 "lpd" 0.3600 "lpq" 0.4680 "lppd" 0.2250 "ll" 0.1688 "s1" 0.1089 "s12" 0.3780 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000 "accel" 0.0000
+genrou             7000 "HELSINKI    " 420.00  "5 "  : #9 mva=1278.0000 "tpdo" 10.0000 "tppdo" 0.0500 "tpqo" 1.0000 "tppqo" 0.0500 "h" 5.5000 "d" 0.0000 "ld" 2.2200 /
+ "lq" 2.1300 "lpd" 0.3600 "lpq" 0.4680 "lppd" 0.2250 "ll" 0.1688 "s1" 0.1089 "s12" 0.3780 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000 "accel" 0.0000
+genrou             7000 "HELSINKI    " 420.00  "6 "  : #9 mva=1278.0000 "tpdo" 10.0000 "tppdo" 0.0500 "tpqo" 1.0000 "tppqo" 0.0500 "h" 5.5000 "d" 0.0000 "ld" 2.2200 /
+ "lq" 2.1300 "lpd" 0.3600 "lpq" 0.4680 "lppd" 0.2250 "ll" 0.1688 "s1" 0.1089 "s12" 0.3780 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000 "accel" 0.0000
+genrou             7000 "HELSINKI    " 420.00  "7 "  : #9 mva=1278.0000 "tpdo" 10.0000 "tppdo" 0.0500 "tpqo" 1.0000 "tppqo" 0.0500 "h" 5.5000 "d" 0.0000 "ld" 2.2200 /
+ "lq" 2.1300 "lpd" 0.3600 "lpq" 0.4680 "lppd" 0.2250 "ll" 0.1688 "s1" 0.1089 "s12" 0.3780 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000 "accel" 0.0000
+genrou             7000 "HELSINKI    " 420.00  "8 "  : #9 mva=1278.0000 "tpdo" 10.0000 "tppdo" 0.0500 "tpqo" 1.0000 "tppqo" 0.0500 "h" 5.5000 "d" 0.0000 "ld" 2.2200 /
+ "lq" 2.1300 "lpd" 0.3600 "lpq" 0.4680 "lppd" 0.2250 "ll" 0.1688 "s1" 0.1089 "s12" 0.3780 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000 "accel" 0.0000
+genrou             7000 "HELSINKI    " 420.00  "9 "  : #9 mva=1278.0000 "tpdo" 10.0000 "tppdo" 0.0500 "tpqo" 1.0000 "tppqo" 0.0500 "h" 5.5000 "d" 0.0000 "ld" 2.2200 /
+ "lq" 2.1300 "lpd" 0.3600 "lpq" 0.4680 "lppd" 0.2250 "ll" 0.1688 "s1" 0.1089 "s12" 0.3780 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000 "accel" 0.0000
+gensal             7100 "OULU        " 420.00  "1 "  : #9 mva=1000.0000 "tpdo" 5.0000 "tppdo" 0.0600 "tppqo" 0.1000 "h" 3.2000 "d" 0.0000 "ld" 0.7500 /
+ "lq" 0.5000 "lpd" 0.2500 "lppd" 0.1539 "ll" 0.1154 "s1" 0.1024 "s12" 0.2742 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             7100 "OULU        " 420.00  "2 "  : #9 mva=1000.0000 "tpdo" 5.0000 "tppdo" 0.0600 "tppqo" 0.1000 "h" 3.2000 "d" 0.0000 "ld" 0.7500 /
+ "lq" 0.5000 "lpd" 0.2500 "lppd" 0.1539 "ll" 0.1154 "s1" 0.1024 "s12" 0.2742 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+gensal             7100 "OULU        " 420.00  "3 "  : #9 mva=1000.0000 "tpdo" 5.0000 "tppdo" 0.0600 "tppqo" 0.1000 "h" 3.2000 "d" 0.0000 "ld" 0.7500 /
+ "lq" 0.5000 "lpd" 0.2500 "lppd" 0.1539 "ll" 0.1154 "s1" 0.1024 "s12" 0.2742 "ra" 0.0000 "rcomp" 0.0000 "xcomp" 0.0000
+esac2a             7000 "HELSINKI    " 420.00  "1 "  : #9 "tr" 0.0 "tb" 0.0 "tc" 0.0 "ka"   400.00 "ta" 0.010000 "vamax"  10.0000 "vamin" -10.0000 "kb"  20.0000 "vrmax"  63.7000 "vrmin" -57.3000 /
+ "te"   1.4000 "vfemax"  10.6000 "kh" 1.000000 "kf" 0.023000 "tf" 1.000000 "kc" 0.455000 "kd" 0.321000 "ke" 1.000000 "e1"   4.6500 "se1" 0.075000 /
+ "e2"   6.2000 "se2" 0.704000 "spdmlt" 0.0
+esac2a             7000 "HELSINKI    " 420.00  "2 "  : #9 "tr" 0.0 "tb" 0.0 "tc" 0.0 "ka"   400.00 "ta" 0.010000 "vamax"  10.0000 "vamin" -10.0000 "kb"  20.0000 "vrmax"  63.7000 "vrmin" -57.3000 /
+ "te"   1.4000 "vfemax"  10.6000 "kh" 1.000000 "kf" 0.023000 "tf" 1.000000 "kc" 0.455000 "kd" 0.321000 "ke" 1.000000 "e1"   4.6500 "se1" 0.075000 /
+ "e2"   6.2000 "se2" 0.704000 "spdmlt" 0.0
+esac2a             7000 "HELSINKI    " 420.00  "3 "  : #9 "tr" 0.0 "tb" 0.0 "tc" 0.0 "ka"   400.00 "ta" 0.010000 "vamax"  10.0000 "vamin" -10.0000 "kb"  20.0000 "vrmax"  63.7000 "vrmin" -57.3000 /
+ "te"   1.4000 "vfemax"  10.6000 "kh" 1.000000 "kf" 0.023000 "tf" 1.000000 "kc" 0.455000 "kd" 0.321000 "ke" 1.000000 "e1"   4.6500 "se1" 0.075000 /
+ "e2"   6.2000 "se2" 0.704000 "spdmlt" 0.0
+esac2a             7000 "HELSINKI    " 420.00  "4 "  : #9 "tr" 0.0 "tb" 0.0 "tc" 0.0 "ka"   400.00 "ta" 0.010000 "vamax"  10.0000 "vamin" -10.0000 "kb"  20.0000 "vrmax"  63.7000 "vrmin" -57.3000 /
+ "te"   1.4000 "vfemax"  10.6000 "kh" 1.000000 "kf" 0.023000 "tf" 1.000000 "kc" 0.455000 "kd" 0.321000 "ke" 1.000000 "e1"   4.6500 "se1" 0.075000 /
+ "e2"   6.2000 "se2" 0.704000 "spdmlt" 0.0
+esac2a             7000 "HELSINKI    " 420.00  "5 "  : #9 "tr" 0.0 "tb" 0.0 "tc" 0.0 "ka"   400.00 "ta" 0.010000 "vamax"  10.0000 "vamin" -10.0000 "kb"  20.0000 "vrmax"  63.7000 "vrmin" -57.3000 /
+ "te"   1.4000 "vfemax"  10.6000 "kh" 1.000000 "kf" 0.023000 "tf" 1.000000 "kc" 0.455000 "kd" 0.321000 "ke" 1.000000 "e1"   4.6500 "se1" 0.075000 /
+ "e2"   6.2000 "se2" 0.704000 "spdmlt" 0.0
+esac2a             7000 "HELSINKI    " 420.00  "6 "  : #9 "tr" 0.0 "tb" 0.0 "tc" 0.0 "ka"   400.00 "ta" 0.010000 "vamax"  10.0000 "vamin" -10.0000 "kb"  20.0000 "vrmax"  63.7000 "vrmin" -57.3000 /
+ "te"   1.4000 "vfemax"  10.6000 "kh" 1.000000 "kf" 0.023000 "tf" 1.000000 "kc" 0.455000 "kd" 0.321000 "ke" 1.000000 "e1"   4.6500 "se1" 0.075000 /
+ "e2"   6.2000 "se2" 0.704000 "spdmlt" 0.0
+esac2a             7000 "HELSINKI    " 420.00  "7 "  : #9 "tr" 0.0 "tb" 0.0 "tc" 0.0 "ka"   400.00 "ta" 0.010000 "vamax"  10.0000 "vamin" -10.0000 "kb"  20.0000 "vrmax"  63.7000 "vrmin" -57.3000 /
+ "te"   1.4000 "vfemax"  10.6000 "kh" 1.000000 "kf" 0.023000 "tf" 1.000000 "kc" 0.455000 "kd" 0.321000 "ke" 1.000000 "e1"   4.6500 "se1" 0.075000 /
+ "e2"   6.2000 "se2" 0.704000 "spdmlt" 0.0
+esac2a             7000 "HELSINKI    " 420.00  "8 "  : #9 "tr" 0.0 "tb" 0.0 "tc" 0.0 "ka"   400.00 "ta" 0.010000 "vamax"  10.0000 "vamin" -10.0000 "kb"  20.0000 "vrmax"  63.7000 "vrmin" -57.3000 /
+ "te"   1.4000 "vfemax"  10.6000 "kh" 1.000000 "kf" 0.023000 "tf" 1.000000 "kc" 0.455000 "kd" 0.321000 "ke" 1.000000 "e1"   4.6500 "se1" 0.075000 /
+ "e2"   6.2000 "se2" 0.704000 "spdmlt" 0.0
+esac2a             7000 "HELSINKI    " 420.00  "9 "  : #9 "tr" 0.0 "tb" 0.0 "tc" 0.0 "ka"   400.00 "ta" 0.010000 "vamax"  10.0000 "vamin" -10.0000 "kb"  20.0000 "vrmax"  63.7000 "vrmin" -57.3000 /
+ "te"   1.4000 "vfemax"  10.6000 "kh" 1.000000 "kf" 0.023000 "tf" 1.000000 "kc" 0.455000 "kd" 0.321000 "ke" 1.000000 "e1"   4.6500 "se1" 0.075000 /
+ "e2"   6.2000 "se2" 0.704000 "spdmlt" 0.0
+scrx               7100 "OULU        " 420.00  "1 "  : #9 "tatb" 0.253850 "tb"  13.0000 "k"  61.0000 "te" 0.050000 "emin" 0.0 "emax"   4.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               7100 "OULU        " 420.00  "2 "  : #9 "tatb" 0.253850 "tb"  13.0000 "k"  61.0000 "te" 0.050000 "emin" 0.0 "emax"   4.0000 "cswitch" 0.0 "rcrfd" 0.0
+scrx               7100 "OULU        " 420.00  "3 "  : #9 "tatb" 0.253850 "tb"  13.0000 "k"  61.0000 "te" 0.050000 "emin" 0.0 "emax"   4.0000 "cswitch" 0.0 "rcrfd" 0.0
+ieeeg1             7000 "HELSINKI    " 420.00  "1 "  : #9 mwcap=1278.0000 "k" 0.0 "t1" 0.010000 "t2" 0.0 "t3" 0.150000 "uo"  99.0000 "uc" -99.0000 "pmax" 1.000000 "pmin" 0.0 "t4" 0.300000 "k1" 0.300000 /
+ "k2" 0.0 "t5"   8.0000 "k3" 0.399000 "k4" 0.0 "t6" 0.400000 "k5" 0.301000 "k6" 0.0 "t7" 0.0 "k7" 0.0 "k8" 0.0 /
+ "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 /
+ "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 "gv6" 0.0 "pgv6" 0.0
+ieeeg1             7000 "HELSINKI    " 420.00  "2 "  : #9 mwcap=1278.0000 "k" 0.0 "t1" 0.010000 "t2" 0.0 "t3" 0.150000 "uo"  99.0000 "uc" -99.0000 "pmax" 1.000000 "pmin" 0.0 "t4" 0.300000 "k1" 0.300000 /
+ "k2" 0.0 "t5"   8.0000 "k3" 0.399000 "k4" 0.0 "t6" 0.400000 "k5" 0.301000 "k6" 0.0 "t7" 0.0 "k7" 0.0 "k8" 0.0 /
+ "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 /
+ "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 "gv6" 0.0 "pgv6" 0.0
+ieeeg1             7000 "HELSINKI    " 420.00  "3 "  : #9 mwcap=1278.0000 "k" 0.0 "t1" 0.010000 "t2" 0.0 "t3" 0.150000 "uo"  99.0000 "uc" -99.0000 "pmax" 1.000000 "pmin" 0.0 "t4" 0.300000 "k1" 0.300000 /
+ "k2" 0.0 "t5"   8.0000 "k3" 0.399000 "k4" 0.0 "t6" 0.400000 "k5" 0.301000 "k6" 0.0 "t7" 0.0 "k7" 0.0 "k8" 0.0 /
+ "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 /
+ "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 "gv6" 0.0 "pgv6" 0.0
+ieeeg1             7000 "HELSINKI    " 420.00  "4 "  : #9 mwcap=1278.0000 "k" 0.0 "t1" 0.010000 "t2" 0.0 "t3" 0.150000 "uo"  99.0000 "uc" -99.0000 "pmax" 1.000000 "pmin" 0.0 "t4" 0.300000 "k1" 0.300000 /
+ "k2" 0.0 "t5"   8.0000 "k3" 0.399000 "k4" 0.0 "t6" 0.400000 "k5" 0.301000 "k6" 0.0 "t7" 0.0 "k7" 0.0 "k8" 0.0 /
+ "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 /
+ "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 "gv6" 0.0 "pgv6" 0.0
+ieeeg1             7000 "HELSINKI    " 420.00  "5 "  : #9 mwcap=1278.0000 "k" 0.0 "t1" 0.010000 "t2" 0.0 "t3" 0.150000 "uo"  99.0000 "uc" -99.0000 "pmax" 1.000000 "pmin" 0.0 "t4" 0.300000 "k1" 0.300000 /
+ "k2" 0.0 "t5"   8.0000 "k3" 0.399000 "k4" 0.0 "t6" 0.400000 "k5" 0.301000 "k6" 0.0 "t7" 0.0 "k7" 0.0 "k8" 0.0 /
+ "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 /
+ "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 "gv6" 0.0 "pgv6" 0.0
+ieeeg1             7000 "HELSINKI    " 420.00  "6 "  : #9 mwcap=1278.0000 "k" 0.0 "t1" 0.010000 "t2" 0.0 "t3" 0.150000 "uo"  99.0000 "uc" -99.0000 "pmax" 1.000000 "pmin" 0.0 "t4" 0.300000 "k1" 0.300000 /
+ "k2" 0.0 "t5"   8.0000 "k3" 0.399000 "k4" 0.0 "t6" 0.400000 "k5" 0.301000 "k6" 0.0 "t7" 0.0 "k7" 0.0 "k8" 0.0 /
+ "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 /
+ "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 "gv6" 0.0 "pgv6" 0.0
+ieeeg1             7000 "HELSINKI    " 420.00  "7 "  : #9 mwcap=1278.0000 "k" 0.0 "t1" 0.010000 "t2" 0.0 "t3" 0.150000 "uo"  99.0000 "uc" -99.0000 "pmax" 1.000000 "pmin" 0.0 "t4" 0.300000 "k1" 0.300000 /
+ "k2" 0.0 "t5"   8.0000 "k3" 0.399000 "k4" 0.0 "t6" 0.400000 "k5" 0.301000 "k6" 0.0 "t7" 0.0 "k7" 0.0 "k8" 0.0 /
+ "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 /
+ "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 "gv6" 0.0 "pgv6" 0.0
+ieeeg1             7000 "HELSINKI    " 420.00  "8 "  : #9 mwcap=1278.0000 "k" 0.0 "t1" 0.010000 "t2" 0.0 "t3" 0.150000 "uo"  99.0000 "uc" -99.0000 "pmax" 1.000000 "pmin" 0.0 "t4" 0.300000 "k1" 0.300000 /
+ "k2" 0.0 "t5"   8.0000 "k3" 0.399000 "k4" 0.0 "t6" 0.400000 "k5" 0.301000 "k6" 0.0 "t7" 0.0 "k7" 0.0 "k8" 0.0 /
+ "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 /
+ "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 "gv6" 0.0 "pgv6" 0.0
+ieeeg1             7000 "HELSINKI    " 420.00  "9 "  : #9 mwcap=1278.0000 "k" 0.0 "t1" 0.010000 "t2" 0.0 "t3" 0.150000 "uo"  99.0000 "uc" -99.0000 "pmax" 1.000000 "pmin" 0.0 "t4" 0.300000 "k1" 0.300000 /
+ "k2" 0.0 "t5"   8.0000 "k3" 0.399000 "k4" 0.0 "t6" 0.400000 "k5" 0.301000 "k6" 0.0 "t7" 0.0 "k7" 0.0 "k8" 0.0 /
+ "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 /
+ "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 "gv6" 0.0 "pgv6" 0.0
+hygov              7100 "OULU        " 420.00  "1 "  : #9 mwcap=1000.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.100000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.0100 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              7100 "OULU        " 420.00  "2 "  : #9 mwcap=1000.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.100000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.0100 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+hygov              7100 "OULU        " 420.00  "3 "  : #9 mwcap=1000.0000 "rperm" 0.060000 "rtemp" 0.400000 "tr"   5.0000 "tf" 0.050000 "tg" 0.200000 "velm" 0.100000 "gmax" 1.000000 "gmin" 0.0 "tw" 1.000000 "at"   1.0100 /
+ "dturb" 0.500000 "qnl" 0.100000 "ttrip" 0.0 "tn" 0.0 "tnp" 0.0 "db1" 0.0 "eps" 0.0 "db2" 0.0 "gv0" 0.0 "pgv0" 0.0 /
+ "gv1" 0.0 "pgv1" 0.0 "gv2" 0.0 "pgv2" 0.0 "gv3" 0.0 "pgv3" 0.0 "gv4" 0.0 "pgv4" 0.0 "gv5" 0.0 "pgv5" 0.0 /
+ "hdam" 1.000000 "bgv0" 0.0 "bgv1" 0.0 "bgv2" 0.0 "bgv3" 0.0 "bgv4" 0.0 "bgv5" 0.0 "bmax" 0.0 "tblade"  99.0000
+
+fmeta 3000 "FORSMARK"  420.00 "1 " : #9 0.0 0.0 0.050000
+
+
+vmeta 3000 "FORSMARK"  420.00 "1 " : #9 0.0 0.0
+
+ameta 3000 "FORSMARK"  420.00 "1 " : #9 0.0 0.0
+
+imetr 3000 "FORSMARK" 420.00 "1 "  3020 "DANNEBO_HVDC" 420.00 "1 "  1 : #9 0.0
+
+
+
+
+
+
+
+pss2a      3000 "FORSMARK    "  420.00 "1 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      3000 "FORSMARK    "  420.00 "2 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      3000 "FORSMARK    "  420.00 "3 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      3115 "PORJUS      " 420.00  "1 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      3115 "PORJUS      " 420.00  "2 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      3115 "PORJUS      " 420.00  "3 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      3115 "PORJUS      " 420.00  "4 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      3115 "PORJUS      " 420.00  "5 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      3245 "JARPSTROMMEN" 420.00  "1 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      3249 "GRUNDFORS   " 420.00  "1 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      3249 "GRUNDFORS   " 420.00  "2 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      3249 "GRUNDFORS   " 420.00  "3 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      3249 "GRUNDFORS   " 420.00  "4 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      3249 "GRUNDFORS   " 420.00  "5 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      3249 "GRUNDFORS   " 420.00  "6 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      3249 "GRUNDFORS   " 420.00  "7 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      3249 "GRUNDFORS   " 420.00  "8 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      3300 "OSKARSHAMN  " 420.00  "1 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      3300 "OSKARSHAMN  " 420.00  "2 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      3300 "OSKARSHAMN  " 420.00  "3 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      3300 "OSKARSHAMN  " 420.00  "4 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      3300 "OSKARSHAMN  " 420.00  "5 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      3300 "OSKARSHAMN  " 420.00  "6 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      3359 "RINGHALS    " 420.00  "1 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      3359 "RINGHALS    " 420.00  "2 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      3359 "RINGHALS    " 420.00  "3 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      3359 "RINGHALS    " 420.00  "4 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      3359 "RINGHALS    " 420.00  "5 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      3359 "RINGHALS    " 420.00  "6 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      5100 "TRETTEN     " 300.00  "1 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      5100 "TRETTEN     " 300.00  "2 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      5300 "SIMA        " 300.00  "1 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      5300 "SIMA        " 300.00  "2 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      5300 "SIMA        " 300.00  "3 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      5300 "SIMA        " 300.00  "4 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      5300 "SIMA        " 300.00  "5 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      5300 "SIMA        " 300.00  "6 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      5400 "OSLO1       " 300.00  "1 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      5400 "OSLO1       " 300.00  "2 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      5500 "OSLO2       " 300.00  "1 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      5500 "OSLO2       " 300.00  "2 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      5600 "KRISTIANSAND" 300.00  "1 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      5600 "KRISTIANSAND" 300.00  "2 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      5600 "KRISTIANSAND" 300.00  "3 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      6000 "KVILLDAL    " 300.00  "1 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      6000 "KVILLDAL    " 300.00  "2 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      6000 "KVILLDAL    " 300.00  "3 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      6000 "KVILLDAL    " 300.00  "4 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      6100 "BLAFALLI    " 300.00  "1 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      6100 "BLAFALLI    " 300.00  "2 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      6100 "BLAFALLI    " 300.00  "3 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      6100 "BLAFALLI    " 300.00  "4 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      6100 "BLAFALLI    " 300.00  "5 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      6500 "TRONDHEIM   " 300.00  "1 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      6500 "TRONDHEIM   " 300.00  "2 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      6500 "TRONDHEIM   " 300.00  "3 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      6500 "TRONDHEIM   " 300.00  "4 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      6700 "ROSSAGA     " 300.00  "1 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      6700 "ROSSAGA     " 300.00  "2 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      6700 "ROSSAGA     " 300.00  "3 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      6700 "ROSSAGA     " 300.00  "4 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      7000 "HELSINKI    " 420.00  "1 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      7000 "HELSINKI    " 420.00  "2 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      7000 "HELSINKI    " 420.00  "3 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      7000 "HELSINKI    " 420.00  "4 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      7000 "HELSINKI    " 420.00  "5 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      7000 "HELSINKI    " 420.00  "6 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      7000 "HELSINKI    " 420.00  "7 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      7000 "HELSINKI    " 420.00  "8 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      7000 "HELSINKI    " 420.00  "9 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      7100 "OULU        " 420.00  "1 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      7100 "OULU        " 420.00  "2 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      7100 "OULU        " 420.00  "3 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      8500 "MALMO       " 420.00  "1 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      8500 "MALMO       " 420.00  "2 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      8500 "MALMO       " 420.00  "3 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      8500 "MALMO       " 420.00  "4 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      8500 "MALMO       " 420.00  "5 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+pss2a      8500 "MALMO       " 420.00  "6 "  : #9 1 0 0 0 2 2 0 0 0.01 0 0 0 0 0 0 0 0 2.0 0 0.01 2 2 0.03 -0.03 0 2 2
+
+
+list of out of service models
+#
+#  template for PSLF dynamic models
+#
+# gensal : tpdo tppdo tppqo h d ld lq lpd lppd ll s1 s12 ra rcomp xcomp
+# genrou : tpdo tppdo tpqo tppqo h d ld lq lpd lpq lppd ll s1 s12 ra rcomp xcomp accel
+# sexs : tatb tb k te emin emax kc   tc   efdmin efdmax tr 
+# scrx : tatb tb k te emin emax cswitch rcrfd 
+# hygov : rperm rtemp tr tf tg velm gmax gmin tw at dturb qnl ttrip tn tnp db1 eps db2 gv0 pgv0 gv1 pgv1 gv2 pgv2 gv3 pgv3 gv4 pgv4 gv5 pgv5 hdam bgv0 bgv1 bgv2 bgv3 bgv4 bgv5 bmax tblade 
+# ieeeg1 : k t1 t2 t3 uo uc pmax pmin t4 k1 k2 t5 k3 k4 t6 k5 k6 t7 k7 k8 db1 eps db2 gv1 pgv1 gv2 pgv2 gv3 pgv3 gv4 pgv4 gv5 pgv5 gv6 pgv6 
+# wlwscc : flag p1 q1 p2 q2 p3 q3 p4 q4 lpd lqd 
+# esac2a : tr tb tc ka ta vamax vamin kb vrmax vrmin te vfemax kh kf tf kc kd ke e1 se1 e2 se2 spdmlt 
+
