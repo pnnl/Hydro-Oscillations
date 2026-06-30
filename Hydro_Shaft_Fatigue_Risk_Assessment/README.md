@@ -21,7 +21,7 @@ Run this file to simulate the dynamic response of a multi-mass hydro-generator c
 <p align="center">
   <img src="figures/Hydro_AI_freq.png" alt="PSCAD Model" width="600">
 </p>
-<p align="center"><em>Fig. 1: Overview of the hydro-generator and AI data center EMT model.</em></p></li>
+<p align="center"><em>Fig. 1: PSCAD model - Multi-mass Hydro with AI data center load.</em></p></li>
 <li>The electrical parameters of the generator to be configured in the synchronous machine model. The defaults are configured for a salient pole machine with parameters from [1].</li>
 <li>The machine speed, generator and turbine inertias, shaft stiffness and damping can be configured in the multi-mass component of the machine model. Example parameter values for three generator units Unit A, GC-7, GC-19, are listed in Table 1.</li>
 </ol>
