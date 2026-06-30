@@ -27,9 +27,8 @@ Run this file to simulate the dynamic response of a multi-mass hydro-generator c
 </ol>
 
 
-
-<div align="center">
 **Table 1: PSCAD multi-mass torsional shaft model parameters**
+<div align="center">
 | Design Parameter | Units | Unit A | GC-7 | GC-19 |
 |---|---|---|---|---|
 | Generator rating | – | 500 MVA | 60 MVA | 715 MVA |
