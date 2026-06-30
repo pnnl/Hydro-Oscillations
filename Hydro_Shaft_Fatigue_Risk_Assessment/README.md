@@ -25,3 +25,24 @@ Run this file to simulate the dynamic response of a multi-mass hydro-generator c
 <li>The electrical parameters of the generator to be configured in the synchronous machine model. The defaults are configured for a salient pole machine with parameters from [1].</li>
 <li>The machine speed, generator and turbine inertias, shaft stiffness and damping can be configured in the multi-mass component of the machine model. Example parameter values for three generator units Unit A, GC-7, GC-19, are listed in Table 1.</li>
 </ol>
+
+**Table 1: PSCAD multi-mass torsional shaft model parameters**
+
+| Design Parameter | Units | Unit A | GC-7 | GC-19 |
+|---|---|---|---|---|
+| Generator rating | – | 500 MVA | 60 MVA | 715 MVA |
+| Rated speed | – | 150 rpm | 200 rpm | 72 rpm |
+| Turbine inertia | kg·m² | 1.68 × 10⁶ | 90.6 × 10³ | 8428 × 10³ |
+| Generator inertia | kg·m² | 33.75 × 10⁶ | 0.653 × 10⁶ | 107 × 10⁶ |
+| Shaft spring constant | Nm/rad | 18.66 × 10⁹ | 0.208 × 10⁹ | 12.09 × 10⁹ |
+| Turbine damping | Nm·s/rad | 5.01 × 10⁶ | 1.37 × 10⁵ | 12.6 × 10⁶ |
+
+
+
+---
+
+### `hydro_grid_AI_load_TF.pscx` — Frequency-Domain (Transfer Function) Analysis
+
+Run this file to simulate the time-series data for evaluating the transfer function of a multi-mass hydro-generator model.
+
+
