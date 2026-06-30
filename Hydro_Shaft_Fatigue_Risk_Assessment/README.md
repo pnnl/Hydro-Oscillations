@@ -2,10 +2,6 @@
 
 EMT models in PSCAD for studying hydro-generator shaft fatigue risk arising from persistent sub-synchronous active-power oscillations induced by large AI data center loads.
 
-## Overview
-
-PSCAD case studies characterizing hydro-generator shaft fatigue risk from sub-synchronous active-power oscillations induced by AI data center loads, in both time domain and frequency domain.
-
 ## Folder Contents
 
 | File | Type | Purpose |
