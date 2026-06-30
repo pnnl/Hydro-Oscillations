@@ -33,8 +33,8 @@ Run this file to simulate the dynamic response of a multi-mass hydro-generator c
 
 | Design Parameter | Units | Unit A | GC-7 | GC-19 |
 |---|---|---|---|---|
-| Generator rating | – | 500 MVA | 60 MVA | 715 MVA |
-| Rated speed | – | 150 rpm | 200 rpm | 72 rpm |
+| Generator rating | MVA | 500  | 60  | 715  |
+| Rated speed | rpm | 150  | 200  | 72  |
 | Turbine inertia | kg·m² | 1.68 × 10⁶ | 90.6 × 10³ | 8428 × 10³ |
 | Generator inertia | kg·m² | 33.75 × 10⁶ | 0.653 × 10⁶ | 107 × 10⁶ |
 | Shaft spring constant | Nm/rad | 18.66 × 10⁹ | 0.208 × 10⁹ | 12.09 × 10⁹ |
