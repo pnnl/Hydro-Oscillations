@@ -11,7 +11,7 @@ PSCAD case studies characterizing hydro-generator shaft fatigue risk from sub-sy
 | File | Type | Purpose |
 |---|---|---|
 | `DML_Components` | PSCAD component library | Shared library of custom models (data center load models, hydro-generator models etc.) referenced by both case files below. Must be added as a library project before compiling/running the other two files. |
-| `hydro_grid_AI_load_freq` | PSCAD case (time domain) | Base model coupling an AI data center load to a hydro-generator grid. Used to simulate AI-load-induced active-power oscillations and directly observe the resulting generator shaft torque response in the time domain. |
-| `hydro_grid_AI_load_TF` | PSCAD case (frequency domain) | Modified version of the base model used to derive system transfer functions and for frequency scanning. |
+| `hydro_grid_AI_load_freq` | PSCAD case  | Base model coupling an AI data center load to a hydro-generator grid. Used to simulate AI-load-induced active-power oscillations and directly observe the resulting generator shaft torque response in the time domain. |
+| `hydro_grid_AI_load_TF` | PSCAD case  | Modified version of the base model used to derive system transfer functions and for frequency scanning. |
 
 
