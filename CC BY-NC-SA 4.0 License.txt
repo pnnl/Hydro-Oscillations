@@ -1,0 +1,17 @@
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+
+This directory contains code derived from:
+
+Nordic44
+https://github.com/statnett/Nordic44
+
+Original work:
+Copyright (c) Statnett
+
+Modifications:
+Copyright (c) 2026, Battelle Memorial Institute
+
+Licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License:
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+All contributions in this directory are distributed under the same CC BY-NC-SA 4.0 license.
