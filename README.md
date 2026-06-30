@@ -4,7 +4,7 @@ Grid Oscillations and Dynamics Assessment Considering Hydropower Operations
 
 ## Overview
 
-This repository contains tools and models for studying grid oscillation phenomena involving hydropower plants, spanning hydrological condition modeling for power flow/dynamic studies and EMT-level assessment of hydro-generator shaft fatigue risk from data-center-induced oscillations.
+This repository contains models and scripts for studying grid oscillation phenomena involving hydropower plants, spanning hydrological condition modeling for power flow/dynamic studies and EMT-level assessment of hydro-generator shaft fatigue risk from data-center-induced oscillations.
 
 ## Repository Structure
 
