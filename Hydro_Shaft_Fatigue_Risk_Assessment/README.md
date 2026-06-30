@@ -26,10 +26,10 @@ Run this file to simulate the dynamic response of a multi-mass hydro-generator c
 <li>The machine speed, generator and turbine inertias, shaft stiffness and damping can be configured in the multi-mass component of the machine model. Example parameter values for three generator units Unit A, GC-7, GC-19, are listed in Table 1.</li>
 </ol>
 
-**Table 1: PSCAD multi-mass torsional shaft model parameters**
+
 
 <div align="center">
-
+**Table 1: PSCAD multi-mass torsional shaft model parameters**
 | Design Parameter | Units | Unit A | GC-7 | GC-19 |
 |---|---|---|---|---|
 | Generator rating | – | 500 MVA | 60 MVA | 715 MVA |
