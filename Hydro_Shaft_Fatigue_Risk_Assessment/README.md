@@ -50,6 +50,7 @@ Run this file to simulate the time-series data for evaluating the transfer funct
 
 
 <ol type="a">
+<li>This model injects unit magnitude single frequency active power sinusoidal signal at the generator terminal. The responses of the generator-turbine shaft torque to this injected signal is captured in this study.</li>
 <li>Variable f_osc to be varied over the desired frequency range. The model currently does not support automation over the entire frequency range. So frequencies need to be simulated one at a time, responses recorded and saved, and then the next set of simulations are to be run.</li>
 </ol>
 
