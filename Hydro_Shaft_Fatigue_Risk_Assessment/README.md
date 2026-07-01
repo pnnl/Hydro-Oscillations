@@ -23,7 +23,7 @@ Run this file to simulate the dynamic response of a multi-mass hydro-generator c
 </p>
 <p align="center"><em>Fig. 1: PSCAD model - Multi-mass Hydro with AI data center load.</em></p></li>
 <li>The electrical parameters of the generator to be configured in the synchronous machine model. The defaults are configured for a salient pole machine with parameters from <a href="#ref2">[2]</a>.</li>
-<li>The machine speed, generator and turbine inertias, shaft stiffness and damping can be configured in the multi-mass component of the machine model. Example parameter values for three generator units Unit A, GC-7, GC-19, are listed in Table 1.</li>
+<li>The machine speed, generator and turbine inertias, shaft stiffness and damping can be configured in the multi-mass component of the machine model. Example parameter values for three generator units Unit A, GC-7, GC-19, are listed in Table 1 [3].</li>
 </ol>
 
 
@@ -62,3 +62,5 @@ Run this file to simulate the time-series data for evaluating the transfer funct
 <a id="ref1"></a>[1] B. A. Ross and J. D. Follum, "Data Center Model Library for Electromagnetic Transient Analysis (PSCAD)," *IEEE Dataport*, 2026.
 
 <a id="ref2"></a>[2] J. Bladh, P. Sundqvist, and L. U, "Torsional Stability of Hydropower Units Under Influence of Subsynchronous Oscillations," *IEEE Trans. on Power Syst.*, vol. 28, no. 4, 2013.
+
+[3] Eilts, L. E., and Eugene Campbell. Shaft torsional oscillations of hydrogenerators. No. PB-102155. Bureau of Reclamation, Denver, CO (USA), 1979.
