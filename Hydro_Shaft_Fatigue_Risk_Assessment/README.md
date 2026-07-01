@@ -17,12 +17,12 @@ EMT models in PSCAD for studying hydro-generator shaft fatigue risk arising from
 Run this file to simulate the dynamic response of a multi-mass hydro-generator connected to an AI data center load.
 
 <ol type="a">
-<li>The AI training load is modeled to represent a bi-periodic square-wave workload profile. Users can configure the base load, amplitude of load fluctuation, and frequencies and duty cycle of the bi-periodic square wave.
+<li>The AI training load <a href="#ref1">[1]</a> is modeled to represent a bi-periodic square-wave workload profile. Users can configure the base load, amplitude of load fluctuation, and frequencies and duty cycle of the bi-periodic square wave.
 <p align="center">
   <img src="figures/Hydro_AI_freq.png" alt="PSCAD Model" width="600">
 </p>
 <p align="center"><em>Fig. 1: PSCAD model - Multi-mass Hydro with AI data center load.</em></p></li>
-<li>The electrical parameters of the generator to be configured in the synchronous machine model. The defaults are configured for a salient pole machine with parameters from [1].</li>
+<li>The electrical parameters of the generator to be configured in the synchronous machine model. The defaults are configured for a salient pole machine with parameters from <a href="#ref2">[2]</a>.</li>
 <li>The machine speed, generator and turbine inertias, shaft stiffness and damping can be configured in the multi-mass component of the machine model. Example parameter values for three generator units Unit A, GC-7, GC-19, are listed in Table 1.</li>
 </ol>
 
@@ -55,3 +55,9 @@ Run this file to simulate the time-series data for evaluating the transfer funct
 </ol>
 
 > **Note:** The model and files are tested with PSCAD version 5.0.1.
+
+## References
+
+<a id="ref1"></a>[1] B. A. Ross and J. D. Follum, "Data Center Model Library for Electromagnetic Transient Analysis (PSCAD)," *IEEE Dataport*, 2026.
+
+<a id="ref2"></a>[2] J. Bladh, P. Sundqvist, and L. U, "Torsional Stability of Hydropower Units Under Influence of Subsynchronous Oscillations," *IEEE Trans. on Power Syst.*, vol. 28, no. 4, 2013.
