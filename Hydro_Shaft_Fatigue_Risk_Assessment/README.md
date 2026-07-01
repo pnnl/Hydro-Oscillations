@@ -50,8 +50,9 @@ Run this file to simulate the time-series data for evaluating the transfer funct
 
 
 <ol type="a">
-<li>This model injects unit magnitude single frequency active power sinusoidal signal at the generator terminal. The responses of the generator-turbine shaft torque to this injected signal is captured in this study.</li>
-<li>Variable f_osc to be varied over the desired frequency range. The model currently does not support automation over the entire frequency range. So frequencies need to be simulated one at a time, responses recorded and saved, and then the next set of simulations are to be run.</li>
+<li>This model injects unit-amplitude sinusoidal active-power oscillation at the generator terminal. The responses of the generator-turbine shaft torque and active power generated to this injected signal is captured in this study.</li>
+<li>The oscillation frequency (f_osc) must be swept manually over the desired range. Each frequency is simulated individually - responses (torques and active powers) should be recorded and saved before proceeding to the next.</li>
+<li>Following post processing including detrending to remove steady state offset, observed oscillation amplitudes are used to compute the corresponding transfer-function magnitudes.</li>
 </ol>
 
 > **Note:** The model and files are tested with PSCAD version 5.0.1.
