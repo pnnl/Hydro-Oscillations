@@ -1,6 +1,6 @@
-# Data_Center_Hydro_Risk_Assessment
+# EMT Models for Studying the Impact of Load-Induced High-Frequency Oscillations on Hydropower Units
 
-EMT models in PSCAD for studying hydro-generator shaft fatigue risk arising from persistent sub-synchronous active-power oscillations induced by large AI data center loads.
+EMT models in PSCAD for studying hydro-generator shaft fatigue risk arising from persistent high-frequency active-power oscillations induced by large AI data center loads.
 
 ## Folder Contents
 
