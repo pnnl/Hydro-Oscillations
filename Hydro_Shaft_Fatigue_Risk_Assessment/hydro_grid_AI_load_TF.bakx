@@ -23,7 +23,7 @@
     <param name="Warn" value="0" />
     <param name="Check" value="0" />
     <param name="description" value="SSR MACHINE TEST" />
-    <param name="revisor" value="varg349, 1784907343" />
+    <param name="revisor" value="varg349, 1782363350" />
     <param name="architecture" value="windows" />
     <param name="Source" value="" />
     <param name="Debug" value="0" />
@@ -273,7 +273,7 @@
         <grouping />
       </schematic>
     </Definition>
-    <Definition classid="StationDefn" name="Station" group="" url="" version="" build="" crc="17421539" instances="1" key="" view="false" id="1449017842" date="1784846630">
+    <Definition classid="StationDefn" name="Station" group="" url="" version="" build="" crc="17421539" instances="1" key="" view="false" id="1449017842" date="1782259361">
       <paramlist name="">
         <param name="Description" value="" />
       </paramlist>
@@ -327,7 +327,7 @@
         <grouping />
       </schematic>
     </Definition>
-    <Definition classid="UserCmpDefn" name="Main" group="" url="" version="" build="" crc="99203289" instances="1" key="" view="false" date="1784846631" id="1240158467">
+    <Definition classid="UserCmpDefn" name="Main" group="" url="" version="" build="" crc="99203289" instances="1" key="" view="false" date="1782359284" id="1240158467">
       <paramlist>
         <param name="Description" value=" Machine-Load" />
       </paramlist>
@@ -13510,7 +13510,7 @@ This section contains parameters to calculate transfer function using injections
     </paramlist>
   </GlobalSubstitutions>
   <hierarchy>
-    <call link="1073201822" name="hydro_grid_AI_load_TF:Station" z="-1" view="false" instance="0">
+    <call link="1484056798" name="hydro_grid_AI_load_TF:Station" z="-1" view="false" instance="0">
       <call link="861784836" name="hydro_grid_AI_load_TF:Main" z="-1" view="true" instance="0">
         <call link="2089375086" name="DML_Components:load_ai_train" z="20" view="false" instance="0" />
         <call link="446850812" name="DML_Components:pu_bases" z="370" view="false" instance="0" />
