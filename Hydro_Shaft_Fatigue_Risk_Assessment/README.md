@@ -78,10 +78,11 @@ This approach provides a controlled frequency sweep, but it needs a separate PSC
 
 This case estimates the transfer function from a time-varying AI-load playback record.
 
-1. The model replays a specified AI-load active-power profile in the PSCAD simulation. The load variation excites the hydro-generator over the frequencies contained in the playback signal.
-2. Run the simulation and export the time, generator electrical torque ($T_e$), and generator–turbine shaft torque ($T_m$) channels to an Excel workbook.
-3. Place the exported workbook in the same directory as `TF_estm_from_AI_playback_data.py`, or give its full path in the script.
-4. Before running the script, change
+1. The model replays a specified AI-load active-power profile in the PSCAD simulation. 
+2. The load variation excites the hydro-generator over the frequencies contained in the playback signal.
+3. Run the simulation and export the time, generator electrical torque ($T_e$), and generator–turbine shaft torque ($T_m$) channels to an Excel workbook.
+4. Place the exported workbook in the same directory as `TF_estm_from_AI_playback_data.py`, or give its full path in the script.
+5. Before running the script, change
 
 ```python
    FILE_PATH = Path("playback_load.xlsx")
@@ -99,8 +100,8 @@ This case estimates the transfer function from a time-varying AI-load playback r
    FILE_PATH = Path(r"C:\PSCAD_results\my_PSCAD_playback_results.xlsx")
 ```
 
-5. If necessary, adjust `SHEET_NAME`, `START_TIME`, `END_TIME`, and the displayed frequency range in the user-configuration section.
-6. Run the script to calculate the direct FFT estimate, the $H_1$ estimate, and the magnitude-squared coherence.
+6. If necessary, adjust `SHEET_NAME`, `START_TIME`, `END_TIME`, and the displayed frequency range in the user-configuration section.
+7. Run the script to calculate the direct FFT estimate, the $H_1$ estimate, and the magnitude-squared coherence.
 
 ##### Estimation Method
 
@@ -132,7 +133,7 @@ $$
 
 The spectra are calculated with Welch averaging over overlapping, Hann-windowed segments. Compared with direct FFT division, the $H_1$ estimator is less sensitive to output noise and to fluctuations in any single data record.
 
-**Magnitude-squared coherence**
+The script also calculates magnitude-squared coherence:
 
 $$
 \gamma^2(f) = \frac{|S_{T_e T_m}(f)|^2}{S_{T_e T_e}(f)\,S_{T_m T_m}(f)}
@@ -140,7 +141,7 @@ $$
 
 Coherence ranges from 0 to 1 and shows how consistently $T_m$ is linearly related to $T_e$ at each frequency. High coherence supports interpreting the estimated gain and phase. Low coherence can come from weak input excitation, transient or time-varying behavior, nonlinear response, or shaft-torque components unrelated to $T_e$.
 
-> **Note:** Treat the $H_1$ estimate as the primary transfer-function result. Use the direct FFT estimate for comparison.
+Treat the $H_1$ estimate as the primary transfer-function result. Use the direct FFT estimate for comparison.
 
 > **Note:** The model and files are tested with PSCAD version 5.0.1.
 
