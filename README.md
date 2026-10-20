@@ -14,3 +14,18 @@ This repository contains outputs from a PNNL project that aims to:
 | `Hydrological_Modeling` | This folder contains PSLF versions of the WECC 240-bus and Nordic 44-bus grid models, where the governor models of the hydroelectric generators have been modified to represent varying water head levels. Three different hydrological scenarios have been represented for each grid model. Additionally, automation scripts are provided to generate cases representing these varying conditions. The models will be helpful for analyzing how water level variation impacts stability in hydropower-rich grids. See folder README for details. |
 
 Each folder contains its own README with detailed description, methodology, and usage instructions.
+
+## Citation
+
+If you use this repository in your work, please cite:
+
+> K. Chatterjee, M. Ramesh, S. Biswas, B. A. Ross, A. C. Varghese, S. Nekkalapu, and S. Kincic, "Assessing Risks of Hydro-Generator Shaft Fatigue from Data Center Load Oscillations," arXiv preprint [arXiv:2607.14412](https://arxiv.org/abs/2607.14412), 2026.
+
+```bibtex
+@article{chatterjee2026assessing,
+  title   = {Assessing Risks of Hydro-Generator Shaft Fatigue from Data Center Load Oscillations},
+  author  = {Chatterjee, Kaustav and Ramesh, Meghana and Biswas, Shuchismita and Ross, Brett A. and Varghese, Antos C. and Nekkalapu, Sameer and Kincic, Slaven},
+  journal = {arXiv preprint arXiv:2607.14412},
+  year    = {2026}
+}
+```
