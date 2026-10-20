@@ -152,3 +152,5 @@ Treat the $H_1$ estimate as the primary transfer-function result. Use the direct
 <a id="ref2"></a>[2] J. Bladh, P. Sundqvist, and L. U, "Torsional Stability of Hydropower Units Under Influence of Subsynchronous Oscillations," *IEEE Trans. on Power Syst.*, vol. 28, no. 4, 2013.
 
 [3] Eilts, L. E., and Eugene Campbell. Shaft torsional oscillations of hydrogenerators. No. PB-102155. Bureau of Reclamation, Denver, CO (USA), 1979.
+
+[4] K. Chatterjee, M. Ramesh, S. Biswas, B. A. Ross, A. C. Varghese, S. Nekkalapu, and S. Kincic, "Assessing Risks of Hydro-Generator Shaft Fatigue from Data Center Load Oscillations," arXiv preprint [arXiv:2607.14412](https://arxiv.org/abs/2607.14412), 2026.
