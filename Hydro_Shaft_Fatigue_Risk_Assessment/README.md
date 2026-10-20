@@ -9,11 +9,12 @@ If this repository is useful in your work, please cite **Chatterjee, Kaustav, Me
 |---|---|---|
 | `DML_Components` | PSCAD component library | Shared library of custom models (data center load models, hydro-generator/turbine-governor models, measurement/control blocks, etc.) referenced by both case files below. Must be added as a library project before compiling/running the other two files. |
 | `hydro_grid_AI_load_freq.pscx` | PSCAD case | Simulates dynamic response of a multi-mass hydro-generator connected to an AI data center load |
+| `hydro_grid_AI_load_TF.pscx` | PSCAD case | Simulates the time-series data for evaluating the transfer function of a multi-mass hydro-generator model |
 | `hydro_grid_AI_load_playback.pscx` | PSCAD case | Replays a time-varying AI-load profile and records the electrical torque and shaft-torque responses used for broadband transfer-function estimation. |
 | `TF_estm_from_AI_playback_data.py` | Python script | Estimates the transfer function from electrical torque, T_e, to generator–turbine shaft torque, T_m, using direct FFT division and the H_1 cross-spectral estimator. The script also calculates magnitude-squared coherence. |
 ## Case File Details
 
-### `hydro_grid_AI_load_freq.pscx` — Time-Domain Simulation
+### Time-Domain Simulation - `hydro_grid_AI_load_freq.pscx`
 
 Run this file to simulate the dynamic response of a multi-mass hydro-generator connected to an AI data center load.
 
@@ -45,16 +46,101 @@ Run this file to simulate the dynamic response of a multi-mass hydro-generator c
 
 ---
 
-### `hydro_grid_AI_load_TF.pscx` — Frequency-Domain (Transfer Function) Analysis
+### Transfer-Function Estimation
 
-Run this file to simulate the time-series data for evaluating the transfer function of a multi-mass hydro-generator model.
+The transfer function from generator electrical torque to generator–turbine shaft torque is defined as
 
+$$
+H(f) = \frac{\Delta T_m(f)}{\Delta T_e(f)}
+$$
 
-<ol type="a">
-<li>This model injects unit-amplitude sinusoidal active-power oscillation at the generator terminal. The responses of the generator-turbine shaft torque and active power generated to this injected signal is captured in this study.</li>
-<li>The oscillation frequency (f_osc) must be swept manually over the desired range. Each frequency is simulated individually - responses (torques and active powers) should be recorded and saved before proceeding to the next.</li>
-<li>Following post processing including detrending to remove steady state offset, observed oscillation amplitudes are used to compute the corresponding transfer-function magnitudes.</li>
-</ol>
+where the electrical torque $T_e$ is the input and the shaft torque $T_m$ is the output. The transfer function can be estimated with either of the two approaches below.
+
+#### Method 1: Individual Sinusoidal Simulations — `hydro_grid_AI_load_TF.pscx`
+
+This case estimates the transfer function by applying one sinusoidal excitation frequency at a time.
+
+1. The model injects a unit-amplitude sinusoidal active-power oscillation at the generator terminal.
+2. Set the desired oscillation frequency with the `f_osc` parameter.
+3. Run the simulation and record the generator electrical torque $T_e$ and the generator–turbine shaft torque $T_m$.
+4. Repeat the simulation for each frequency in the desired range. Save the responses before changing `f_osc`.
+5. Detrend the recorded signals to remove their steady-state offsets, giving $\Delta T_e$ and $\Delta T_m$.
+6. Determine the oscillation amplitudes of $\Delta T_e$ and $\Delta T_m$ at each applied frequency.
+7. Calculate the transfer-function magnitude as
+
+   $$
+   |H(f)| = \frac{|\Delta T_m(f)|}{|\Delta T_e(f)|}
+   $$
+
+This approach provides a controlled frequency sweep, but it needs a separate PSCAD simulation for every excitation frequency.
+
+#### Method 2: Transfer-Function Estimation from AI-Load Playback — `hydro_grid_AI_load_playback.pscx`
+
+This case estimates the transfer function from a time-varying AI-load playback record.
+
+1. The model replays a specified AI-load active-power profile in the PSCAD simulation. The load variation excites the hydro-generator over the frequencies contained in the playback signal.
+2. Run the simulation and export the time, generator electrical torque ($T_e$), and generator–turbine shaft torque ($T_m$) channels to an Excel workbook.
+3. Place the exported workbook in the same directory as `TF_estm_from_AI_playback_data.py`, or give its full path in the script.
+4. Before running the script, change
+
+```python
+   FILE_PATH = Path("playback_load.xlsx")
+```
+
+   to the name or full path of the exported workbook, for example:
+
+```python
+   FILE_PATH = Path("my_PSCAD_playback_results.xlsx")
+```
+
+   or
+
+```python
+   FILE_PATH = Path(r"C:\PSCAD_results\my_PSCAD_playback_results.xlsx")
+```
+
+5. If necessary, adjust `SHEET_NAME`, `START_TIME`, `END_TIME`, and the displayed frequency range in the user-configuration section.
+6. Run the script to calculate the direct FFT estimate, the $H_1$ estimate, and the magnitude-squared coherence.
+
+##### Estimation Method
+
+The script first detrends $T_e$ and $T_m$ to remove their steady-state operating values. It then estimates $H(f)$ in two ways.
+
+**Direct FFT estimator**
+
+$$
+\hat{H}_{\mathrm{FFT}}(f) = \frac{Y(f)}{U(f)} = \frac{\Delta T_m(f)}{\Delta T_e(f)}
+$$
+
+This estimate is mainly a diagnostic comparison. Frequency bins with insufficient energy in $\Delta T_e(f)$ are excluded, because dividing by a very small input spectrum can produce unrealistically large gains.
+
+**$H_1$ cross-spectral estimator**
+
+$$
+\hat{H}_{H_1}(f) = \frac{S_{T_e T_m}(f)}{S_{T_e T_e}(f)}
+$$
+
+where $S_{T_e T_m}$ is the cross-power spectral density between electrical torque and shaft torque, and $S_{T_e T_e}$ is the auto-power spectral density of the electrical torque:
+
+$$
+S_{T_e T_m}(f) = \mathbb{E}\left[\Delta T_e^{*}(f)\,\Delta T_m(f)\right]
+$$
+
+$$
+S_{T_e T_e}(f) = \mathbb{E}\left[\Delta T_e^{*}(f)\,\Delta T_e(f)\right] = \mathbb{E}\left[|\Delta T_e(f)|^2\right]
+$$
+
+The spectra are calculated with Welch averaging over overlapping, Hann-windowed segments. Compared with direct FFT division, the $H_1$ estimator is less sensitive to output noise and to fluctuations in any single data record.
+
+**Magnitude-squared coherence**
+
+$$
+\gamma^2(f) = \frac{|S_{T_e T_m}(f)|^2}{S_{T_e T_e}(f)\,S_{T_m T_m}(f)}
+$$
+
+Coherence ranges from 0 to 1 and shows how consistently $T_m$ is linearly related to $T_e$ at each frequency. High coherence supports interpreting the estimated gain and phase. Low coherence can come from weak input excitation, transient or time-varying behavior, nonlinear response, or shaft-torque components unrelated to $T_e$.
+
+> **Note:** Treat the $H_1$ estimate as the primary transfer-function result. Use the direct FFT estimate for comparison.
 
 > **Note:** The model and files are tested with PSCAD version 5.0.1.
 
