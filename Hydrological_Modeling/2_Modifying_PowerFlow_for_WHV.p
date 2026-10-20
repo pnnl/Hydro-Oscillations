@@ -64,7 +64,7 @@ for @i=0 to @num_total_gens
 			@flag = 1
 		endif
 	next
-	/*if (@flag != 1 and gens[@i].baseload_flag = 0)*/
+	/*if (@flag != 1 and gens[@i].baseload_flag = 0)*/sys.exit()
 	if (@flag != 1)  /*assuming no base load flag constraint*/
 		gens[@i].dispatch_flag = 1
 	else

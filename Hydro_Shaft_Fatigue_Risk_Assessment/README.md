@@ -8,8 +8,8 @@ EMT models in PSCAD for studying hydro-generator shaft fatigue risk arising from
 |---|---|---|
 | `DML_Components` | PSCAD component library | Shared library of custom models (data center load models, hydro-generator/turbine-governor models, measurement/control blocks, etc.) referenced by both case files below. Must be added as a library project before compiling/running the other two files. |
 | `hydro_grid_AI_load_freq.pscx` | PSCAD case | Simulates dynamic response of a multi-mass hydro-generator connected to an AI data center load |
-| `hydro_grid_AI_load_TF.pscx` | PSCAD case | Simulates the time-series data for evaluating the transfer function of a multi-mass hydro-generator model |
-
+| `hydro_grid_AI_load_playback.pscx` | PSCAD case | Replays a time-varying AI-load profile and records the electrical torque and shaft-torque responses used for broadband transfer-function estimation. |
+| `TF_estm_from_AI_playback_data.py` | Python script | Estimates the transfer function from electrical torque, T_e, to generator–turbine shaft torque, T_m, using direct FFT division and the H_1 cross-spectral estimator. The script also calculates magnitude-squared coherence. |
 ## Case File Details
 
 ### `hydro_grid_AI_load_freq.pscx` — Time-Domain Simulation
