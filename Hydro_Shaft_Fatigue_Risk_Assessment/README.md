@@ -11,7 +11,7 @@ If this repository is useful in your work, please cite **Chatterjee, Kaustav, Me
 | `hydro_grid_AI_load_freq.pscx` | PSCAD case | Simulates dynamic response of a multi-mass hydro-generator connected to an AI data center load |
 | `hydro_grid_AI_load_TF.pscx` | PSCAD case | Simulates the time-series data for evaluating the transfer function of a multi-mass hydro-generator model |
 | `hydro_grid_AI_load_playback.pscx` | PSCAD case | Replays a time-varying AI-load profile and records the electrical torque and shaft-torque responses used for broadband transfer-function estimation. |
-| `TF_estm_from_AI_playback_data.py` | Python script | Estimates the transfer function from electrical torque, T_e, to generator–turbine shaft torque, T_m, using direct FFT division and the H_1 cross-spectral estimator. The script also calculates magnitude-squared coherence. |
+| `TF_estm_from_AI_playback_data.py` | Python script | Estimates the transfer function from electrical torque, $`T_e`$, to generator–turbine shaft torque, $`T_m`$, using direct FFT division and the $`H_1`$ cross-spectral estimator. The script also calculates magnitude-squared coherence. |
 ## Case File Details
 
 ### Time-Domain Simulation - `hydro_grid_AI_load_freq.pscx`
