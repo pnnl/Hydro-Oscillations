@@ -68,9 +68,9 @@ This case estimates the transfer function by applying one sinusoidal excitation 
 6. Determine the oscillation amplitudes of $\Delta T_e$ and $\Delta T_m$ at each applied frequency.
 7. Calculate the transfer-function magnitude as
 
-   ```math
+```math
    \lvert H(f) \rvert = \frac{\lvert \Delta T_m(f) \rvert}{\lvert \Delta T_e(f) \rvert}
-	```
+```
 
 This approach provides a controlled frequency sweep, but it needs a separate PSCAD simulation for every excitation frequency.
 
